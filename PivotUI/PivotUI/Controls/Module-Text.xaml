@@ -1,0 +1,127 @@
+﻿<UserControl
+    x:Class="PivotUI.Controls.Module_Text"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PivotUI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="500">
+    <Grid Background="Transparent">
+
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="WindowSize">
+                <VisualState x:Name="Widest">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="1008"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Lines.Width" Value="45"/>
+                        <Setter Target="Lines.Height" Value="225"/>
+
+                        <Setter Target="DetailText.Width" Value="381"/>
+
+                        <Setter Target="DetailText.FontSize" Value="16"/>
+
+                        <Setter Target="Xbox_Text.FontSize" Value="20"/>
+
+                        
+                        <Setter Target="Text.FontSize" Value="30"/>
+
+                        <Setter Target="Xbox_Button.FontSize" Value="16"/>
+
+                        <Setter Target="Profile_Text.FontSize" Value="13"/>
+
+                        <Setter Target="Image.Width" Value="43"/>
+                        <Setter Target="Image.Height" Value="37"/>
+
+                        <Setter Target="border.Width" Value="52"/>
+                        <Setter Target="border_text.FontSize" Value="14"/>
+                        <Setter Target="border.CornerRadius" Value="13"/>
+                        <Setter Target="border.Height" Value="19"/>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="Wide">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="700"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Lines.Width" Value="35"/>
+                        <Setter Target="Lines.Height" Value="150"/>
+
+                        <Setter Target="DetailText.Width" Value="330"/>
+
+                        <Setter Target="DetailText.FontSize" Value="14"/>
+
+                        <Setter Target="Text.FontSize" Value="24"/>
+
+                        
+                        <Setter Target="Xbox_Button.FontSize" Value="14"/>
+
+                        <Setter Target="Xbox_Text.FontSize" Value="18"/>
+
+                        <Setter Target="Profile_Text.FontSize" Value="12"/>
+
+                        <Setter Target="Image.Width" Value="38"/>
+                        <Setter Target="Image.Height" Value="32"/>
+
+                        <Setter Target="border_text.FontSize" Value="11"/>
+                        <Setter Target="border.Width" Value="35"/>
+                        <Setter Target="border_text.Margin" Value="1,-6,0,-6"/>
+                        <Setter Target="border.CornerRadius" Value="11"/>
+                        <Setter Target="border.Height" Value="17"/>
+
+                    </VisualState.Setters>
+                </VisualState>
+
+                <VisualState x:Name="Narrow">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Lines.Width" Value="30"/>
+                        <Setter Target="Lines.Height" Value="100"/>
+
+                        <Setter Target="DetailText.Width" Value="300"/>
+
+                        <Setter Target="Text.FontSize" Value="16"/>
+                        <Setter Target="DetailText.FontSize" Value="12"/>
+
+                        <Setter Target="Xbox_Button.FontSize" Value="12"/>
+                        <Setter Target="Xbox_Button.Margin" Value="234,233,0,0"/>
+
+                        <Setter Target="Xbox_Text.FontSize" Value="16"/>
+
+                        <Setter Target="Profile_Text.FontSize" Value="10"/>
+
+                        <Setter Target="Image.Width" Value="33"/>
+                        <Setter Target="Image.Height" Value="27"/>
+
+                        <Setter Target="border_text.FontSize" Value="9"/>
+                        
+                        <Setter Target="border.Width" Value="33"/>
+                        <Setter Target="border.Height" Value="15"/>
+                        <Setter Target="border.CornerRadius" Value="10"/>
+
+
+                    </VisualState.Setters>
+                </VisualState>
+            </VisualStateGroup>
+        </VisualStateManager.VisualStateGroups>
+
+
+        <Image x:Name="Lines"  Margin="58,45,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Cross.JPG" Height="40" Width="225"/>
+        <TextBlock x:Name="Text" Foreground="White" FontSize="30"  VerticalAlignment="Top" HorizontalAlignment="Left" Text="MODULES" FontFamily="A" Margin="66,85,0,0" Width="231" Height="67"/>
+        <TextBlock x:Name="DetailText" Foreground="DimGray" FontSize="16"  VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Adjust your audio EQ to your liking and save them in one of three present slots, or choose from our EQ Profiles. " FontFamily="Bahnschrift Condensed" Margin="66,126,0,0"  Width="381" Height="86"/>
+        <Image x:Name="Image" Margin="22,232,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Profile.png" Height="37" Width="43"/>
+        <TextBlock x:Name="Xbox_Text" Foreground="White" FontSize="20" VerticalAlignment="Top"  HorizontalAlignment="Left" Text="Xbox" FontStyle="Normal" Margin="66,233,0,0" Height="61" Width="145" />
+        <Button x:Name="Xbox_Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="294,233,0,0" VerticalAlignment="Top" Height="40" Width="40" FontSize="16" FontWeight="Bold" Background="#00000000" Foreground="White" />
+        <TextBlock x:Name="Profile_Text" HorizontalAlignment="Left" Margin="66,260,0,0" Text="Active Profile" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="145" FontSize="13" FocusVisualPrimaryBrush="White" Foreground="#FFFF5A01" FontWeight="Bold" FontFamily="Adobe Garamond Pro"/>
+        <Border x:Name="border" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="153,256,0,0" Padding="5" BorderThickness="1" Background="#FFFF5A01" CornerRadius="13" Height="19" Width="52">
+            <TextBlock x:Name="border_text" Text="48V" HorizontalAlignment="Left" Width="61" Margin="6,-6,0,-6" Foreground="White" FontWeight="Bold"/>
+        </Border>
+    </Grid>
+</UserControl>

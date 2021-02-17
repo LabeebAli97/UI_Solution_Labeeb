@@ -1,0 +1,1 @@
+C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\PivotUI.csproj;x86
