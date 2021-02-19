@@ -1,0 +1,43 @@
+﻿<Page xmlns:my="using:Microsoft.Toolkit.Uwp.UI.Controls" 
+    x:Class="GlobeUI.NewPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GlobeUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.Resources>
+        <Style x:Key="RadialGaugeStyle1" TargetType="my:RadialGauge">
+            <Setter Property="NeedleBrush" Value="{ThemeResource SystemControlBackgroundAccentBrush}"/>
+            <Setter Property="TrailBrush" Value="{ThemeResource SystemControlBackgroundAccentBrush}"/>
+            <Setter Property="ScaleBrush" Value="{ThemeResource SystemControlBackgroundBaseMediumLowBrush}"/>
+            <Setter Property="ScaleTickBrush" Value="{ThemeResource SystemControlBackgroundBaseMediumLowBrush}"/>
+            <Setter Property="TickBrush" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
+            <Setter Property="Foreground" Value="{ThemeResource SystemControlForegroundBaseHighBrush}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="True"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="my:RadialGauge">
+                        <Viewbox>
+                            <Grid x:Name="PART_Container" Background="Transparent" Height="200" Width="200">
+                                <Path x:Name="PART_Scale" StrokeThickness="2" Stroke="Red"/>
+                                <Path x:Name="PART_Trail" StrokeThickness="2" Stroke="Orange"/>
+                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Bottom">
+                                    <TextBlock x:Name="PART_ValueText" FontWeight="SemiBold" Foreground="{TemplateBinding Foreground}" FontSize="20" Margin="0,0,0,2" Text="{TemplateBinding Value}" TextAlignment="Center"/>
+                                    <TextBlock Foreground="{TemplateBinding Foreground}" FontSize="16" Margin="0" Text="{TemplateBinding Unit}" TextAlignment="Center"/>
+                                </StackPanel>
+                            </Grid>
+                        </Viewbox>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+        <Button x:Name="Previous" Content="Previous" Foreground="White" FontSize="40" HorizontalAlignment="Center" VerticalAlignment="Top" Width="204" Height="79"  Margin="0,44,0,0"/>
+
+        <my:RadialGauge Style="{StaticResource RadialGaugeStyle1}" Margin="550,312,577,300" IsInteractive="True"/>
+    </Grid>
+</Page>

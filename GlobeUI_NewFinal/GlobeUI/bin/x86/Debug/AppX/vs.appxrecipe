@@ -1,0 +1,1229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LABEEB</Machine>
+    <WindowsUser>Labeeb Ali</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>755ee962-ea2b-4ea1-a7fc-74411e931cc2</PackageIdentityName>
+    <PackageIdentityPublisher>CN=40012936</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>5D3C451FF79389520E48D85394D168A64AFF4B07BF959132B0482D5B70CEDBFE</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>755ee962-ea2b-4ea1-a7fc-74411e931cc2_1.0.0.0_x86__6wf1edj3156yt</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>755ee962-ea2b-4ea1-a7fc-74411e931cc2_6wf1edj3156yt!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>755ee962-ea2b-4ea1-a7fc-74411e931cc2</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=40012936</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-19T12:32:46.363</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\GlobeUI.exe">
+      <PackagePath>entrypoint\GlobeUI.exe</PackagePath>
+      <Modified>2021-02-19T12:32:40.327</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\colorcode.core\2.0.5\lib\netstandard1.4\ColorCode.Core.dll">
+      <PackagePath>ColorCode.Core.dll</PackagePath>
+      <Modified>2018-05-17T05:25:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\colorcode.uwp\2.0.5\lib\uap10.0\ColorCode.UWP.dll">
+      <PackagePath>ColorCode.UWP.dll</PackagePath>
+      <Modified>2018-05-17T05:25:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+      <Modified>2016-11-04T23:25:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.identity.client\1.1.2-preview0008\lib\win81\Microsoft.Identity.Client.dll">
+      <PackagePath>Microsoft.Identity.Client.dll</PackagePath>
+      <Modified>2018-02-02T12:32:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.dll">
+      <PackagePath>System.dll</PackagePath>
+      <Modified>2016-07-01T11:40:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.dll">
+      <PackagePath>Microsoft.Toolkit.dll</PackagePath>
+      <Modified>2018-08-07T16:53:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.parsers\4.0.0\lib\netstandard1.4\Microsoft.Toolkit.Parsers.dll">
+      <PackagePath>Microsoft.Toolkit.Parsers.dll</PackagePath>
+      <Modified>2018-08-07T16:53:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.dll</PackagePath>
+      <Modified>2018-08-07T16:53:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.dll</PackagePath>
+      <Modified>2018-08-07T16:53:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.animations\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Animations.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Animations.dll</PackagePath>
+      <Modified>2018-08-07T16:53:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls.dll">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls.dll</PackagePath>
+      <Modified>2018-08-07T16:53:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.visualbasic\10.0.1\lib\netcore50\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+      <Modified>2016-06-11T16:43:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2016-02-22T08:29:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.xaml.behaviors.uwp.managed\1.1.0\lib\uap10.0\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2016-02-22T08:29:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\newtonsoft.json\10.0.3\lib\netstandard1.3\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2017-06-18T08:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\runtimes\win10-x86\native\Robmikh.CompositionSurfaceFactory.dll">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.dll</PackagePath>
+      <Modified>2017-09-27T13:50:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.collections\4.3.0\lib\netcore50\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+      <Modified>2016-11-04T23:25:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.diagnostics.tools\4.3.0\lib\netcore50\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+      <Modified>2016-11-04T23:25:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.diagnostics.tracing\4.3.0\lib\netcore50\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+      <Modified>2016-11-04T23:25:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.globalization\4.3.0\lib\netcore50\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+      <Modified>2016-11-04T23:26:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.globalization.calendars\4.3.0\lib\netcore50\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+      <Modified>2016-11-04T23:25:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.io\4.3.0\lib\netcore50\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+      <Modified>2016-11-04T23:26:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.reflection\4.3.0\lib\netcore50\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+      <Modified>2016-11-04T23:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.reflection.extensions\4.3.0\lib\netcore50\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+      <Modified>2016-11-04T23:26:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.reflection.primitives\4.3.0\lib\netcore50\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:26:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.resources.resourcemanager\4.3.0\lib\netcore50\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+      <Modified>2016-11-04T23:26:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.runtime\4.3.0\lib\netcore50\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+      <Modified>2016-11-04T23:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.runtime.handles\4.3.0\lib\netstandard1.3\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+      <Modified>2016-11-04T23:26:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.runtime.interopservices\4.3.0\lib\netcore50\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+      <Modified>2016-11-04T23:26:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.text.encoding\4.3.0\lib\netcore50\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+      <Modified>2016-11-04T23:27:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.text.encoding.extensions\4.3.0\lib\netcore50\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+      <Modified>2016-11-04T23:27:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.threading.tasks\4.3.0\lib\netcore50\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+      <Modified>2016-11-04T23:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.any.system.threading.timer\4.3.0\lib\netcore50\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+      <Modified>2016-11-04T23:27:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.microsoft.win32.primitives\4.3.0\runtimes\win\lib\netstandard1.3\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:25:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.console\4.3.0\runtimes\win\lib\netcore50\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+      <Modified>2016-11-04T23:25:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.diagnostics.debug\4.3.0\runtimes\win\lib\netcore50\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+      <Modified>2016-11-04T23:25:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.io.filesystem\4.3.0\runtimes\win\lib\netcore50\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+      <Modified>2016-11-04T23:26:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.net.primitives\4.3.0\runtimes\win\lib\netcore50\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.net.sockets\4.3.0\runtimes\win\lib\netcore50\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+      <Modified>2016-11-04T23:26:28.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win.system.runtime.extensions\4.3.0\runtimes\win\lib\netcore50\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+      <Modified>2016-11-04T23:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win7-x86.microsoft.netcore.jit\1.0.3\runtimes\win7-x86\native\clrjit.dll">
+      <PackagePath>clrjit.dll</PackagePath>
+      <Modified>2016-06-13T11:57:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win7-x86.runtime.native.system.io.compression\4.3.0\runtimes\win7-x86\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-11-04T23:04:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\runtime.win7.system.private.uri\4.3.0\runtimes\win\lib\netcore50\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+      <Modified>2016-11-04T23:26:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.appcontext\4.3.0\lib\netcore50\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+      <Modified>2016-11-04T23:25:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.buffers\4.3.0\lib\netstandard1.1\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+      <Modified>2016-11-04T23:25:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.collections.concurrent\4.3.0\lib\netcore50\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+      <Modified>2016-11-04T23:25:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+      <Modified>2016-06-11T16:43:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+      <Modified>2016-06-11T16:43:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+      <Modified>2016-06-11T16:43:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+      <Modified>2016-06-11T16:43:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+      <Modified>2016-06-11T16:43:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+      <Modified>2016-06-11T16:43:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.componentmodel.primitives\4.3.0\lib\netstandard1.0\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:25:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.componentmodel.typeconverter\4.3.0\lib\netstandard1.0\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+      <Modified>2016-11-04T23:25:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+      <Modified>2016-06-11T16:43:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.diagnostics.contracts\4.3.0\lib\netcore50\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+      <Modified>2016-11-04T23:25:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.diagnostics.diagnosticsource\4.3.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+      <Modified>2016-11-04T23:25:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+      <Modified>2016-07-01T09:18:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.dynamic.runtime\4.3.0\lib\netcore50\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+      <Modified>2016-11-04T23:26:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+      <Modified>2016-06-11T16:43:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.io.compression\4.3.0\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+      <Modified>2016-11-04T23:26:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.io.compression.zipfile\4.3.0\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+      <Modified>2016-11-04T23:26:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.io.filesystem.primitives\4.3.0\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:26:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+      <Modified>2016-06-11T16:43:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.unmanagedmemorystream\4.0.1\lib\netstandard1.3\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+      <Modified>2016-06-11T16:43:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.linq\4.3.0\lib\netcore50\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+      <Modified>2016-11-04T23:26:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.linq.expressions\4.3.0\lib\netcore50\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+      <Modified>2016-11-04T23:26:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T16:43:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+      <Modified>2016-06-11T16:43:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.net.http\4.3.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+      <Modified>2016-11-04T23:26:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+      <Modified>2016-06-11T16:43:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.net.nameresolution\4.3.0\runtimes\win\lib\netcore50\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+      <Modified>2016-11-04T23:26:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.networkinformation\4.1.0\runtimes\win\lib\netcore50\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+      <Modified>2016-06-11T16:44:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.requests\4.0.11\runtimes\win\lib\netstandard1.3\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+      <Modified>2016-06-11T16:44:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.webheadercollection\4.0.1\lib\netstandard1.3\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+      <Modified>2016-06-11T16:44:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets\4.0.0\lib\netstandard1.3\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+      <Modified>2016-06-11T16:44:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.websockets.client\4.0.2\runtimes\win\lib\netcore50\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+      <Modified>2017-11-20T09:04:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.numerics.vectors\4.1.1\lib\portable-net45+win8+wp8+wpa81\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+      <Modified>2016-06-11T16:44:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.numerics.vectors.windowsruntime\4.0.1\lib\uap10.0\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T16:44:06.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.objectmodel\4.3.0\lib\netcore50\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+      <Modified>2016-11-04T23:26:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+      <Modified>2017-02-09T07:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.servicemodel\4.1.3\runtimes\win7\lib\netcore50\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+      <Modified>2018-07-19T09:15:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.context\4.0.1\lib\netcore50\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+      <Modified>2016-06-11T16:44:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.dispatchproxy\4.0.1\lib\netstandard1.3\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+      <Modified>2016-06-11T16:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+      <Modified>2016-06-11T16:44:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.reflection.emit.ilgeneration\4.3.0\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+      <Modified>2016-11-04T23:26:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.reflection.emit.lightweight\4.3.0\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+      <Modified>2016-11-04T23:26:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+      <Modified>2016-06-11T16:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.reflection.typeextensions\4.3.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+      <Modified>2016-11-04T23:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.runtime.interopservices.runtimeinformation\4.3.0\runtimes\win\lib\netcore50\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+      <Modified>2016-11-04T23:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-06-11T16:44:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.runtime.numerics\4.3.0\lib\netcore50\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+      <Modified>2016-11-04T23:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.runtime.serialization.formatters\4.3.0\lib\netstandard1.4\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+      <Modified>2016-11-04T23:26:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+      <Modified>2017-02-09T07:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.runtime.serialization.primitives\4.3.0\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+      <Modified>2017-02-09T07:56:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.runtime.windowsruntime\4.3.0\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+      <Modified>2016-11-04T23:27:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.windowsruntime.ui.xaml\4.0.1\runtimes\win8\lib\netstandard1.3\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+      <Modified>2016-06-11T16:44:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.claims\4.0.1\lib\netstandard1.3\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+      <Modified>2016-06-11T16:44:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.security.cryptography.algorithms\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+      <Modified>2016-11-04T23:27:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.security.cryptography.cng\4.3.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+      <Modified>2016-11-04T23:27:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.security.cryptography.encoding\4.3.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+      <Modified>2016-11-04T23:27:08.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.security.cryptography.primitives\4.3.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+      <Modified>2016-11-04T23:27:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.security.cryptography.x509certificates\4.3.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+      <Modified>2016-11-04T23:27:18.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+      <Modified>2016-06-11T16:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.duplex\4.0.4\lib\netcore50\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+      <Modified>2018-07-19T09:15:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.http\4.1.3\lib\netcore50\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+      <Modified>2018-07-19T09:15:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.nettcp\4.1.3\lib\netcore50\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+      <Modified>2018-07-19T09:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.primitives\4.1.3\lib\netcore50\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+      <Modified>2018-07-19T09:15:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.servicemodel.security\4.0.4\lib\netcore50\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+      <Modified>2018-07-19T09:15:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.encoding.codepages\4.0.1\runtimes\win\lib\netstandard1.3\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+      <Modified>2016-06-11T16:44:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.text.regularexpressions\4.3.0\lib\netcore50\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+      <Modified>2016-11-04T23:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.threading\4.3.0\lib\netcore50\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+      <Modified>2016-11-04T23:27:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.threading.overlapped\4.3.0\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+      <Modified>2016-11-04T23:27:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.dataflow\4.6.0\lib\netstandard1.1\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+      <Modified>2016-06-11T16:44:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.threading.tasks.extensions\4.3.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+      <Modified>2016-11-04T23:27:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+      <Modified>2016-06-11T16:44:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.valuetuple\4.4.0\lib\netstandard1.0\System.ValueTuple.dll">
+      <PackagePath>System.ValueTuple.dll</PackagePath>
+      <Modified>2017-07-19T04:31:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.xml.readerwriter\4.3.0\lib\netcore50\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+      <Modified>2016-11-04T23:27:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.xml.xdocument\4.3.0\lib\netcore50\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+      <Modified>2016-11-04T23:27:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\system.xml.xmldocument\4.3.0\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+      <Modified>2016-11-04T23:27:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+      <Modified>2016-06-11T16:45:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.Core.dll">
+      <PackagePath>Telerik.Core.dll</PackagePath>
+      <Modified>2021-01-25T04:13:50.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.Data.dll">
+      <PackagePath>Telerik.Data.dll</PackagePath>
+      <Modified>2021-01-25T04:05:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.Geospatial.UWP.dll">
+      <PackagePath>Telerik.Geospatial.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:13:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:06:36.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:07:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:07:04.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:08:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:07:24.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Primitives.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:13:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\win2d.uwp\1.21.0\runtimes\win10-x86\native\Microsoft.Graphics.Canvas.dll">
+      <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
+      <Modified>2017-06-25T21:31:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP.dll">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP.dll</PackagePath>
+      <Modified>2021-01-25T04:10:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.dll">
+      <PackagePath>Telerik.UI.Drawing.dll</PackagePath>
+      <Modified>2021-01-25T04:10:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\robmikh.compositionsurfacefactory\0.7.3\lib\uap10.0\Robmikh.CompositionSurfaceFactory.winmd">
+      <PackagePath>Robmikh.CompositionSurfaceFactory.winmd</PackagePath>
+      <Modified>2017-09-27T13:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\win2d.uwp\1.21.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
+      <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
+      <Modified>2017-06-25T21:31:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+      <Modified>2019-03-18T13:06:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\build\uap10.0\..\..\lib\uap10.0\x86\Telerik.UI.Drawing.winmd">
+      <PackagePath>Telerik.UI.Drawing.winmd</PackagePath>
+      <Modified>2021-01-25T04:10:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.Core\Properties\default.rd.xml">
+      <PackagePath>Telerik.Core\Properties\default.rd.xml</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Map.UWP\Telerik.UI.Xaml.Map.UWP.xr.xml</PackagePath>
+      <Modified>2019-02-20T05:44:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Telerik.UI.Xaml.Primitives.UWP.xr.xml</PackagePath>
+      <Modified>2018-05-11T01:29:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Microsoft.Toolkit.Uwp.UI.xr.xml</PackagePath>
+      <Modified>2018-08-07T16:49:34.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Microsoft.Toolkit.Uwp.UI.Controls.xr.xml</PackagePath>
+      <Modified>2018-08-07T16:49:46.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.Data\Properties\default.rd.xml">
+      <PackagePath>Telerik.Data\Properties\default.rd.xml</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\CustomDictionary.xml</PackagePath>
+      <Modified>2018-05-11T01:29:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Chart.UWP\Telerik.UI.Xaml.Chart.UWP.xr.xml</PackagePath>
+      <Modified>2018-05-11T01:29:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Telerik.UI.Xaml.Controls.Data.UWP.xr.xml</PackagePath>
+      <Modified>2018-05-11T01:30:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Telerik.UI.Xaml.Input.UWP.xr.xml</PackagePath>
+      <Modified>2020-05-13T10:01:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.DataVisualization.UWP\Telerik.UI.Xaml.DataVisualization.UWP.xr.xml</PackagePath>
+      <Modified>2018-05-11T01:30:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Telerik.UI.Xaml.Grid.UWP.xr.xml</PackagePath>
+      <Modified>2018-05-11T01:30:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Generic.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\HubTilePalette.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\Resources.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\SharedResources.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsDark.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsHighContrast.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeColorsLight.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\x86\Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Primitives.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+      <Modified>2021-01-25T04:10:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Calendar.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\CommonResources.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Generic.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\Resources.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Input.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:22.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\DataForm.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Generic.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\Listbox.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesDark.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesHighContrast.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\Themes\ThemeResourcesLight.xaml</PackagePath>
+      <Modified>2021-01-25T04:07:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\NavigationView.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI\Extensions\NavigationView\Styles\VSCodeActivityBarStyle.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\BladeView\BladeView.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\CameraPreview\CameraPreview.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Carousel\Carousel.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\DropShadowPanel\DropShadowPanel.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Expander\Expander.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\GridSplitter\GridSplitter.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenu.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuNavViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HamburgerMenu\HamburgerMenuTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedContentControl\HeaderedContentControl.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedItemsControl\HeaderedItemsControl.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\HeaderedTextBlock\HeaderedTextBlock.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\ImageEx.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ImageEx\RoundImageEx.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\InAppNotification.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\MSEdgeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InAppNotification\Styles\VSCodeNotificationStyle.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\InfiniteCanvas\InfiniteCanvas.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\LayoutTransformControl\LayoutTransformControl.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Loading\Loading.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MarkdownTextBlock\MarkdownTextBlock.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\MasterDetailsView\MasterDetailsView.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Menu\Menu.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\OrbitView\OrbitView.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListView.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewRefreshContainerTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\PullToRefreshListView\PullToRefreshListViewTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialGauge\RadialGauge.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RadialProgressBar\RadialProgressBar.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RangeSelector\RangeSelector.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\RotatorTile\RotatorTile.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\ScrollHeader\ScrollHeader.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItem.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\SlidableListItem\SlidableListItemSwipeControlTemplate.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\TextToolbar.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\Symbols\Symbols.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarButton.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TextToolbar\ToolbarItems\ToolbarSeparator.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\microsoft.toolkit.uwp.ui.controls\4.0.0\lib\uap10.0\Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf">
+      <PackagePath>Microsoft.Toolkit.Uwp.UI.Controls\TileControl\TileControl.xbf</PackagePath>
+      <Modified>2018-08-07T16:50:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-dark.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png">
+      <PackagePath>Telerik.UI.Xaml.Controls.Data.UWP\ListView\Resources\reorder-handle-light.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\FilterFlyout\ic_arrow_down_white.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\close_btn_blue.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\column_chooser_btn_blue.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_dark.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-240.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-180.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.scale-140.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\telerik.ui.for.universalwindowsplatform\1.0.2.2\lib\uap10.0\Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png">
+      <PackagePath>Telerik.UI.Xaml.Grid.UWP\Assets\Reorder\ic_reorder_light.png</PackagePath>
+      <Modified>2018-05-11T01:29:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+      <Modified>2021-02-18T01:59:32.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\A50.png">
+      <PackagePath>Assets\Images\A50.png</PackagePath>
+      <Modified>2021-02-18T01:59:32.420</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Astro_Carina.png">
+      <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
+      <Modified>2021-02-18T01:59:32.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Image.png">
+      <PackagePath>Assets\Images\Image.png</PackagePath>
+      <Modified>2021-02-18T01:59:32.433</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+      <Modified>2021-02-18T01:59:32.434</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.447</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2021-02-18T01:59:32.458</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2021-02-18T01:59:32.512</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\GlobeUI.xr.xml">
+      <PackagePath>GlobeUI.xr.xml</PackagePath>
+      <Modified>2021-02-19T12:12:39.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2021-02-19T12:32:40.178</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2021-02-19T12:32:40.174</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\NewPage.xbf">
+      <PackagePath>NewPage.xbf</PackagePath>
+      <Modified>2021-02-19T12:32:40.179</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+      <Modified>2019-03-18T12:03:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2021-02-18T09:34:45.144</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\Core\GlobeUI.exe">
+      <PackagePath>GlobeUI.exe</PackagePath>
+      <Modified>2021-02-19T12:32:46.335</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\ARM\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x64\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\">
+      <Name>Microsoft.NET.CoreRuntime.1.1</Name>
+      <Version>1.1.27004.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.1.1, MinVersion = 1.1.27004.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.NET.CoreRuntime\1.1\.\AppX\x86\Microsoft.NET.CoreRuntime.1.1.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
