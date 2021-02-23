@@ -134,9 +134,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Background.png" />
-    <Content Include="Assets\Images\A50.png" />
-    <Content Include="Assets\Images\Astro_Carina.png" />
-    <Content Include="Assets\Images\Image.png" />
+    <Content Include="Assets\Images\1.png" />
+    <Content Include="Assets\Images\10.png" />
+    <Content Include="Assets\Images\2.png" />
+    <Content Include="Assets\Images\3.png" />
+    <Content Include="Assets\Images\4.png" />
+    <Content Include="Assets\Images\5.png" />
+    <Content Include="Assets\Images\6.png" />
+    <Content Include="Assets\Images\7.png" />
+    <Content Include="Assets\Images\8.png" />
+    <Content Include="Assets\Images\9.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

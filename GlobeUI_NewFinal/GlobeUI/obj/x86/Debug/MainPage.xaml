@@ -449,9 +449,9 @@
         </Grid.Background>
 
 
+        <Grid Width="800" Height="800">
 
-
-        <Grid Width="800" Height="800" RenderTransformOrigin="0.5,0.5">
+            <Grid Width="800" Height="800" RenderTransformOrigin="0.5,0.5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0*"/>
                 <ColumnDefinition/>
@@ -459,22 +459,22 @@
             <Grid.RenderTransform>
                 <CompositeTransform Rotation="-142.061"/>
             </Grid.RenderTransform>
-            <controls:RadialGauge x:ConnectionId='41' x:Name="Indicator" Style="{StaticResource RadialGaugeStyle1}" ScaleWidth="0.5" Width="800" Height="800" Maximum="100" Minimum="0" Value="{Binding Value, Mode=TwoWay}" MinAngle="0" MaxAngle="224" Unit="{Binding Angle}" ScaleTickWidth="0.3" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <controls:RadialGauge x:ConnectionId='42' x:Name="Indicator" Style="{StaticResource RadialGaugeStyle1}" ScaleWidth="0.5" Width="800" Height="800" Maximum="100" Minimum="0" Value="{Binding Value, Mode=TwoWay}" MinAngle="0" MaxAngle="224" Unit="{Binding Angle}" ScaleTickWidth="0.3" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <controls:RadialGauge.RenderTransform>
                     <CompositeTransform Rotation="30.715"/>
                 </controls:RadialGauge.RenderTransform>
             </controls:RadialGauge>
-            <controls:RadialGauge x:ConnectionId='42' x:Name="OverlapWhiteIndicator" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.52" Width="800" Height="800" Maximum="25" Minimum="0"  MinAngle="168" MaxAngle="224" ScaleTickWidth="0.32" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <controls:RadialGauge x:ConnectionId='43' x:Name="OverlapWhiteIndicator" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.52" Width="800" Height="800" Maximum="25" Minimum="0"  MinAngle="168" MaxAngle="224" ScaleTickWidth="0.32" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <controls:RadialGauge.RenderTransform>
                     <CompositeTransform Rotation="30.715"/>
                 </controls:RadialGauge.RenderTransform>
             </controls:RadialGauge>
-            <controls:RadialGauge x:ConnectionId='43' x:Name="OverlapWhiteIndicator1" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.25" Width="800" Height="800" Maximum="12.5" Minimum="0"  MinAngle="140" MaxAngle="168" ScaleTickWidth="0.28" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <controls:RadialGauge x:ConnectionId='44' x:Name="OverlapWhiteIndicator1" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.25" Width="800" Height="800" Maximum="12.5" Minimum="0"  MinAngle="140" MaxAngle="168" ScaleTickWidth="0.28" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <controls:RadialGauge.RenderTransform>
                     <CompositeTransform Rotation="31.815"/>
                 </controls:RadialGauge.RenderTransform>
             </controls:RadialGauge>
-            <controls:RadialGauge x:ConnectionId='44' x:Name="OverlapWhiteIndicator3" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.15" Width="800" Height="800" Maximum="12.5" Minimum="0"  MinAngle="112" MaxAngle="140" ScaleTickWidth="0.28" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <controls:RadialGauge x:ConnectionId='45' x:Name="OverlapWhiteIndicator3" Style="{StaticResource RadialGaugeStyle2}" ScaleWidth="0.15" Width="800" Height="800" Maximum="12.5" Minimum="0"  MinAngle="112" MaxAngle="140" ScaleTickWidth="0.28" TickSpacing="1" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2" UseLayoutRounding="False" d:LayoutRounding="Auto">
                 <controls:RadialGauge.RenderTransform>
                     <CompositeTransform Rotation="30.715"/>
                 </controls:RadialGauge.RenderTransform>
@@ -498,7 +498,7 @@
 
 
 
-            <Grid x:ConnectionId='45' Background="Transparent" 
+            <Grid x:ConnectionId='46' Background="Transparent" 
                   ManipulationMode="TranslateX,TranslateY" 
                                                              Grid.ColumnSpan="2" RenderTransformOrigin="0.5,0.5" >
                 <Grid.RenderTransform>
@@ -525,30 +525,31 @@
                     <CompositeTransform Rotation="-39"/>
                 </Path.RenderTransform>
             </Path>
-            <Path x:ConnectionId='46' x:Name="points1" Stretch="Fill" Fill="#FF222223" Data="F1 M 257.538,228.572L 257.585,208.597L 240.417,198.755L 223.203,208.886L 223.156,228.861L 240.324,238.704L 257.538,228.572 Z " Margin="86,433,675,324" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+            <Path x:ConnectionId='47' x:Name="points1" Stretch="Fill" Fill="#FF222223" Data="F1 M 257.538,228.572L 257.585,208.597L 240.417,198.755L 223.203,208.886L 223.156,228.861L 240.324,238.704L 257.538,228.572 Z " Margin="86,433,675,324" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
                 <Path.RenderTransform>
                     <CompositeTransform Rotation="-39"/>
                 </Path.RenderTransform>
             </Path>
-            <Path x:ConnectionId='47' x:Name="points" Stretch="Fill" Fill="#FF222223" Data="F1 M 257.538,228.572L 257.585,208.597L 240.417,198.755L 223.203,208.886L 223.156,228.861L 240.324,238.704L 257.538,228.572 Z " Margin="510,103,251,654" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
+            <Path x:ConnectionId='48' x:Name="points" Stretch="Fill" Fill="#FF222223" Data="F1 M 257.538,228.572L 257.585,208.597L 240.417,198.755L 223.203,208.886L 223.156,228.861L 240.324,238.704L 257.538,228.572 Z " Margin="510,103,251,654" UseLayoutRounding="False" RenderTransformOrigin="0.5,0.5" Grid.ColumnSpan="2">
                 <Path.RenderTransform>
                     <CompositeTransform Rotation="-39"/>
                 </Path.RenderTransform>
             </Path>
-            <TextBlock x:ConnectionId='48' x:Name="RightIndicatorText" Text="{Binding ElementName=Indicator,Path=Value}" TextAlignment="Center" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="88,443,0,0"  FontSize="16" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="35" Height="23" Grid.ColumnSpan="2">
+            <TextBlock x:ConnectionId='49' x:Name="RightIndicatorText" Text="{Binding ElementName=Indicator,Path=Value}" TextAlignment="Center" Foreground="White" VerticalAlignment="Top" HorizontalAlignment="Left"  Margin="88,443,0,0"  FontSize="16" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="35" Height="23" Grid.ColumnSpan="2">
                 <TextBlock.RenderTransform>
                     <CompositeTransform Rotation="-219"/>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBlock x:ConnectionId='49' x:Name="LeftIndicatorText" Text="{Binding Value1}" TextAlignment="Center" Foreground="Red" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="511,113,0,0" FontSize="16" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="39" Grid.ColumnSpan="2" Height="23">
+            <TextBlock x:ConnectionId='50' x:Name="LeftIndicatorText" Text="{Binding Value1}" TextAlignment="Center" Foreground="Red" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="511,113,0,0" FontSize="16" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" Width="39" Grid.ColumnSpan="2" Height="23">
                 <TextBlock.RenderTransform>
                     <CompositeTransform Rotation="-219"/>
                 </TextBlock.RenderTransform>
             </TextBlock>
 
         </Grid>
-      
 
+            <Image x:ConnectionId='41' x:Name="GlobeImage" Source="{Binding ImageSrc}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="300"/>
+        </Grid>
     </Grid>
 </Page>
 

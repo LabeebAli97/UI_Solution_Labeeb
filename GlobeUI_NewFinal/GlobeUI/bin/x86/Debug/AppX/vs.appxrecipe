@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>5D3C451FF79389520E48D85394D168A64AFF4B07BF959132B0482D5B70CEDBFE</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3A8CE3E0B3D4B655F40B1C59D20684C32D14087D521C3C908533EFD57DBFB498</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>755ee962-ea2b-4ea1-a7fc-74411e931cc2_1.0.0.0_x86__6wf1edj3156yt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>755ee962-ea2b-4ea1-a7fc-74411e931cc2_6wf1edj3156yt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>755ee962-ea2b-4ea1-a7fc-74411e931cc2</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-19T12:32:46.363</Modified>
+      <Modified>2021-02-22T13:59:26.188</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\GlobeUI.exe">
       <PackagePath>entrypoint\GlobeUI.exe</PackagePath>
-      <Modified>2021-02-19T12:32:40.327</Modified>
+      <Modified>2021-02-22T13:59:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\.nuget\packages\colorcode.core\2.0.5\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -1082,17 +1082,45 @@
       <PackagePath>Assets\Background.png</PackagePath>
       <Modified>2021-02-18T01:59:32.412</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\A50.png">
-      <PackagePath>Assets\Images\A50.png</PackagePath>
-      <Modified>2021-02-18T01:59:32.420</Modified>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\1.png">
+      <PackagePath>Assets\Images\1.png</PackagePath>
+      <Modified>2021-02-22T10:57:16.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Astro_Carina.png">
-      <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
-      <Modified>2021-02-18T01:59:32.422</Modified>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\10.png">
+      <PackagePath>Assets\Images\10.png</PackagePath>
+      <Modified>2021-02-22T10:57:18.023</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Image.png">
-      <PackagePath>Assets\Images\Image.png</PackagePath>
-      <Modified>2021-02-18T01:59:32.433</Modified>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\2.png">
+      <PackagePath>Assets\Images\2.png</PackagePath>
+      <Modified>2021-02-22T10:57:17.213</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\3.png">
+      <PackagePath>Assets\Images\3.png</PackagePath>
+      <Modified>2021-02-22T10:57:17.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\4.png">
+      <PackagePath>Assets\Images\4.png</PackagePath>
+      <Modified>2021-02-22T10:57:17.866</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\5.png">
+      <PackagePath>Assets\Images\5.png</PackagePath>
+      <Modified>2021-02-22T10:57:17.994</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\6.png">
+      <PackagePath>Assets\Images\6.png</PackagePath>
+      <Modified>2021-02-22T10:57:17.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\7.png">
+      <PackagePath>Assets\Images\7.png</PackagePath>
+      <Modified>2021-02-22T10:57:18.008</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\8.png">
+      <PackagePath>Assets\Images\8.png</PackagePath>
+      <Modified>2021-02-22T10:57:18.013</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\9.png">
+      <PackagePath>Assets\Images\9.png</PackagePath>
+      <Modified>2021-02-22T10:57:18.017</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -1134,19 +1162,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\GlobeUI.xr.xml">
       <PackagePath>GlobeUI.xr.xml</PackagePath>
-      <Modified>2021-02-19T12:12:39.132</Modified>
+      <Modified>2021-02-22T13:59:15.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-02-19T12:32:40.178</Modified>
+      <Modified>2021-02-22T13:59:15.795</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-02-19T12:32:40.174</Modified>
+      <Modified>2021-02-22T13:59:15.770</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\NewPage.xbf">
       <PackagePath>NewPage.xbf</PackagePath>
-      <Modified>2021-02-19T12:32:40.179</Modified>
+      <Modified>2021-02-22T13:59:15.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -1154,11 +1182,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-02-18T09:34:45.144</Modified>
+      <Modified>2021-02-22T13:59:20.825</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\bin\x86\Debug\Core\GlobeUI.exe">
       <PackagePath>GlobeUI.exe</PackagePath>
-      <Modified>2021-02-19T12:32:46.335</Modified>
+      <Modified>2021-02-22T13:59:26.061</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

@@ -69,7 +69,7 @@ namespace GlobeUI
         public ViewModel()
         {
             SetProperty(ref m_Value1, 100);
-           
+            SetProperty(ref m_ImageSrc, "Assets/Images/1.png");
 
             if (Windows.ApplicationModel.DesignMode.DesignModeEnabled)
             {
@@ -110,7 +110,34 @@ namespace GlobeUI
                 SetProperty(ref m_Value, value);
                 //  Angle = (double)(value * 2.8);
                 Value1 = (int)(100 - value);
-               
+                
+                if (value >=0 && value < 10)
+                {
+                    ImageSrc = "Assets/Images/1.png";
+                }
+                else if (value == 100)
+                {
+                    ImageSrc = "Assets/Images/10.png";
+                }
+                else
+                {
+                    ImageSrc = "Assets/Images/" + Convert.ToString((value / 10)+1) + ".png";
+                }
+                
+
+              /*  if (value > 30 && value < 60)
+                {
+                    ImageSrc = "Assets/Images/1.png";
+                }
+                else if (value >= 60)
+                {
+                    ImageSrc = "Assets/Images/2.png";
+                }
+                else
+                {
+                    ImageSrc = "Assets/Images/3.png";
+                }*/
+           
 
             }
         }
@@ -124,7 +151,19 @@ namespace GlobeUI
             }
         }
 
-        
+        string m_ImageSrc = default(string);
+        public string ImageSrc
+        {
+            get { return m_ImageSrc; }
+            set
+            {
+
+                SetProperty(ref m_ImageSrc, value);
+            }
+        }
+
+
+
         public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
         protected void SetProperty<T>(ref T storage, T value, [System.Runtime.CompilerServices.CallerMemberName] string propertyName = null)
         {

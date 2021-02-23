@@ -811,14 +811,35 @@
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\A50.png">
-      <PackagePath>Assets\Images\A50.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\1.png">
+      <PackagePath>Assets\Images\1.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Astro_Carina.png">
-      <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\10.png">
+      <PackagePath>Assets\Images\10.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\Image.png">
-      <PackagePath>Assets\Images\Image.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\2.png">
+      <PackagePath>Assets\Images\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\3.png">
+      <PackagePath>Assets\Images\3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\4.png">
+      <PackagePath>Assets\Images\4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\5.png">
+      <PackagePath>Assets\Images\5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\6.png">
+      <PackagePath>Assets\Images\6.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\7.png">
+      <PackagePath>Assets\Images\7.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\8.png">
+      <PackagePath>Assets\Images\8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\Images\9.png">
+      <PackagePath>Assets\Images\9.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\GlobeUI_NewFinal\GlobeUI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>

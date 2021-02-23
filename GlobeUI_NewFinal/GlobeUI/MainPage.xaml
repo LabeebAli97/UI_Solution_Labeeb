@@ -449,9 +449,9 @@
         </Grid.Background>
 
 
+        <Grid Width="800" Height="800">
 
-
-        <Grid Width="800" Height="800" RenderTransformOrigin="0.5,0.5">
+            <Grid Width="800" Height="800" RenderTransformOrigin="0.5,0.5">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="0*"/>
                 <ColumnDefinition/>
@@ -547,7 +547,8 @@
             </TextBlock>
 
         </Grid>
-      
 
+            <Image x:Name="GlobeImage" Source="{Binding ImageSrc}" HorizontalAlignment="Center" VerticalAlignment="Center" Width="300" Height="300"/>
+        </Grid>
     </Grid>
 </Page>
