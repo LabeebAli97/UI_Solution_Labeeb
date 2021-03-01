@@ -348,7 +348,7 @@
                 <Path.Fill>
 
                     <!--ImageBrush ImageSource="/Assets/back.png"/-->
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="15,0" 
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="5,0" 
                      MappingMode="Absolute" SpreadMethod="Repeat" >
 
                         <GradientStopCollection>

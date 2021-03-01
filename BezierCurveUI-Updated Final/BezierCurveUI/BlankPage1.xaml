@@ -337,22 +337,22 @@
 
         <Grid Width="900" Height="500">
             
-            <Line Stroke="DarkGray" X2="890" Y1="250" Y2="250" X1="10" StrokeThickness="3"/>
-            <Line Stroke="DarkGray" X1="150" X2="150" Y1="20" Y2="480" StrokeThickness="3"/>
-            <Line Stroke="DarkGray" X1="300" X2="300" Y1="20" Y2="480" StrokeThickness="3"/>
+            <Line Stroke="Gray" X2="890" Y1="250" Y2="250" X1="10" StrokeThickness="1.5"/>
+            <Line Stroke="Gray" X1="150" X2="150" Y1="20" Y2="480" StrokeThickness="1.5"/>
+            <Line Stroke="Gray" X1="300" X2="300" Y1="20" Y2="480" StrokeThickness="1.5"/>
             <Line Stroke="DarkGray" X1="450" X2="450" Y1="20" Y2="480" StrokeThickness="3"/>
             <Line Stroke="DarkGray" X1="600" X2="600" Y1="20" Y2="480" StrokeThickness="3"/>
             <Line Stroke="DarkGray" X1="750" X2="750" Y1="20" Y2="480" StrokeThickness="3"/>
 
-            <Path Stroke="Red" StrokeThickness="2">
+            <Path Stroke="#FF3600" StrokeThickness="2">
                 <Path.Fill>
 
                     <!--ImageBrush ImageSource="/Assets/back.png"/-->
-                    <LinearGradientBrush StartPoint="0,0" EndPoint="15,0" 
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="10,0" 
                      MappingMode="Absolute" SpreadMethod="Repeat" >
 
                         <GradientStopCollection>
-                            <GradientStop Color="#CCFF0000" Offset="0.1"/>
+                            <GradientStop Color="#FF3600" Offset="0.1"/>
 
                             <GradientStop Color="Transparent" Offset="0.1"/>
                         </GradientStopCollection>
