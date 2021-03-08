@@ -7,7 +7,9 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-    
+
+  
+
     <Page.Resources>
         
         <SolidColorBrush x:Key="ToggleSwitchKnobFillOn" Color="Gray" />
@@ -308,7 +310,34 @@
 
         <ToggleSwitch Style="{StaticResource ToggleSwitchStyle1}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
+        <ListView x:Name="List1" Background="#FF151515" Padding="4" Margin="50,170,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="auto" CanDragItems="True"  CanDrag="False" AllowDrop="True" DragItemsStarting="List1_DragItemsStarting" DragOver="List2_DragOver" Drop="List1_Drop" DragEnter="List1_DragEnter" SelectionMode="Extended" DropCompleted="List1_DropCompleted" >
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Info">
+                    <StackPanel Orientation="Horizontal" >
+                        <Image Source="Assets/keypad.JPG" Width="30" Height="30" HorizontalAlignment="Left"/>
+                        <TextBlock Text="{Binding name}"  HorizontalAlignment="Right" FontSize="20" Foreground="White" Margin="10"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView x:Name="List2" Background="#FF151515" Padding="4" Margin="50,50,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Height="113" AllowDrop="True" Drop="List2_Drop" SelectionMode="Extended" CanDrag="False" DragOver="List2_DragOver">
+            <ListView.ItemTemplate>
+                <DataTemplate x:DataType="local:Info">
+                    <StackPanel Orientation="Horizontal" Padding="10">
+                        <RadioButton GroupName="RadioBtn" IsChecked="{Binding check}"/>
+                        <Image Source="{Binding image}" VerticalAlignment="Center"  Margin="-85,0,0,0" HorizontalAlignment="Left" Width="25" Height="25"/>
+                        <TextBlock x:Name="TextBl1" Text="{Binding name}"  HorizontalAlignment="Left" Margin="-50,0,0,0" FontSize="20" Foreground="White"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+          
+        </ListView>
         
+        
+        
+       
 
     </Grid>
 </Page>

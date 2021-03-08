@@ -123,7 +123,6 @@ C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Deb
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\System.Xml.XmlSerializer.dll
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\ButtonTask.csprojAssemblyReference.cache
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\App.g.i.cs
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\App.g.cs
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\MainPage.g.i.cs
@@ -218,3 +217,4 @@ C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Deb
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\ButtonTask.csprojAssemblyReference.cache

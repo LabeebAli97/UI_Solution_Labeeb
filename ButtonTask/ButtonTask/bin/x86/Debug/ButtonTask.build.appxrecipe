@@ -376,6 +376,12 @@
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Profile.png">
+      <PackagePath>Assets\Profile.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\slowicon.png">
+      <PackagePath>Assets\slowicon.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -402,6 +408,9 @@
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\keypad.JPG">
+      <PackagePath>Assets\keypad.JPG</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
