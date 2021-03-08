@@ -155,8 +155,7 @@ namespace ButtonTask
                 {              
                         try
                         {
-                            _reference.Remove(dragedItem as Info);
-                             
+                            _reference.Remove(dragedItem as Info);                            
                             dropCollection.Insert(index, dragedItem as Info);
                         }
                         catch (Exception)
