@@ -6,22 +6,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    d:DesignHeight="600"
+    d:DesignHeight="650"
     d:DesignWidth="1280">
 
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition x:ConnectionId='2' Width="40*" x:Name="First"/>
             <ColumnDefinition Width="10*"/>
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
 
-        <Image  HorizontalAlignment="Left" 
+        <Image x:ConnectionId='3'  HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 Source="/Assets/Images/image 3.png" 
-                
+                x:Name="ImageAero"
                 Height="357" 
                 Width="637"
                 Grid.Column="1"
@@ -116,7 +116,7 @@
                    Foreground="#FFFDF6F6" 
                    FontWeight="Bold"/>
 
-        <Button x:ConnectionId='2' x:Name="btXbox" 
+        <Button x:ConnectionId='4' x:Name="btXbox" 
                 FontFamily="Segoe MDL2 Assets" 
                 Content="&#xE76C;" 
                 Margin="420,215,0,0" 
@@ -129,7 +129,7 @@
                 Background="#00000000" 
                 Foreground="White" />
 
-        <Button x:ConnectionId='3' x:Name="btResolution" 
+        <Button x:ConnectionId='5' x:Name="btResolution" 
                 FontFamily="Segoe MDL2 Assets" 
                 Content="&#xE76C;" 
                 Margin="420,325,0,0" 
@@ -142,7 +142,7 @@
                 Background="#00000000" 
                 Foreground="White" />
 
-        <Button x:ConnectionId='4' x:Name="btVideo" 
+        <Button x:ConnectionId='6' x:Name="btVideo" 
                 FontFamily="Segoe MDL2 Assets" 
                 Content="&#xE76C;" 
                 Margin="420,415,0,0" 
@@ -168,7 +168,7 @@
                    FontWeight="Bold"
                    FontFamily="Times New Roman"/>
 
-        <TextBlock x:ConnectionId='5' x:Name="resolution_text"
+        <TextBlock x:ConnectionId='7' x:Name="resolution_text"
                    HorizontalAlignment="Left" 
                    Margin="80,352,0,0" 
                    Text="1080p - 60 FPS" 
@@ -177,7 +177,7 @@
                    Height="33"
                    Width="152" 
                    FontSize="17" FocusVisualPrimaryBrush="White" Foreground="#FFFF5A01" FontWeight="Bold" FontFamily="Times New Roman"/>
-        <TextBlock x:ConnectionId='6' x:Name="profile_check_text" 
+        <TextBlock x:ConnectionId='8' x:Name="profile_check_text" 
                    HorizontalAlignment="Left" 
                    Margin="80,242,0,0" 
                    Text="Active Profile" 

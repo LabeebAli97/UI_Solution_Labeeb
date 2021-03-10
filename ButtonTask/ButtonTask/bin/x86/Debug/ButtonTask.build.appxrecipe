@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>eb02cbc2-d784-451e-a263-788c20420d88</PackageIdentityName>
     <PackageIdentityPublisher>CN=40012936</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.exe">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.exe">
       <PackagePath>entrypoint\ButtonTask.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -373,64 +373,64 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Background.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Profile.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Profile.png">
       <PackagePath>Assets\Profile.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\slowicon.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\slowicon.png">
       <PackagePath>Assets\slowicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Assets\keypad.JPG">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\keypad.JPG">
       <PackagePath>Assets\keypad.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.xr.xml">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.xr.xml">
       <PackagePath>ButtonTask.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\ButtonTask\ButtonTask\bin\x86\Debug\Core\ButtonTask.exe">
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\ButtonTask.exe">
       <PackagePath>ButtonTask.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

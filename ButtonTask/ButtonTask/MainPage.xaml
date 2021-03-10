@@ -8,8 +8,6 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-  
-
     <Page.Resources>
         
         <SolidColorBrush x:Key="ToggleSwitchKnobFillOn" Color="Gray" />
@@ -182,11 +180,27 @@
                                                 <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchKnobOff" Storyboard.TargetProperty="Opacity">
                                                     <DiscreteObjectKeyFrame KeyTime="0" Value="0"/>
                                                 </ObjectAnimationUsingKeyFrames>
+
+
+                                                
+
                                             </Storyboard>
                                         </VisualTransition>
                                     </VisualStateGroup.Transitions>
-                                    <VisualState x:Name="Dragging"/>
-                                    <VisualState x:Name="Off"/>
+                                    <VisualState x:Name="Dragging">
+                                        <!--<Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchThumb" Storyboard.TargetProperty="Margin">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="300,0,0,0"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>-->
+                                    </VisualState>
+                                    <VisualState x:Name="Off">
+                                        <!--<Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchThumb" Storyboard.TargetProperty="Margin">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="300,0,0,0"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>-->
+                                    </VisualState>
                                     <VisualState x:Name="On">
                                         <Storyboard>
                                             <!--Animation Motion Changed -->
@@ -205,7 +219,15 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="0"/>
                                             </ObjectAnimationUsingKeyFrames>
 
-                                        
+
+                                            <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchThumb" Storyboard.TargetProperty="Margin">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="0,0,0,0"/>
+                                            </ObjectAnimationUsingKeyFrames>-->
+                                            <!--<ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchThumbNew" Storyboard.TargetProperty="Opacity">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="0"/>
+                                            </ObjectAnimationUsingKeyFrames>-->
+
+
                                         </Storyboard>
                                     </VisualState>
                                 </VisualStateGroup>
@@ -283,13 +305,14 @@
 
                                
                                 <!--Knob size Changed-->
-                                <Thumb x:Name="SwitchThumb" AutomationProperties.AccessibilityView="Raw" Grid.ColumnSpan="3" Grid.RowSpan="3">
+                                <Thumb x:Name="SwitchThumb" AutomationProperties.AccessibilityView="Raw" Grid.ColumnSpan="3" Grid.RowSpan="3" >
                                     <Thumb.Template>
                                         <ControlTemplate TargetType="Thumb">
                                             <Rectangle Fill="Transparent" Width="300" Margin="-13,0,0,0" Height="50" RadiusX="25" RadiusY="25"/>
                                         </ControlTemplate>
                                     </Thumb.Template>
                                 </Thumb>
+
                             </Grid>
                         </Grid>
                     </ControlTemplate>
@@ -331,13 +354,6 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
-          
         </ListView>
-        
-        
-        
-       
-
     </Grid>
 </Page>

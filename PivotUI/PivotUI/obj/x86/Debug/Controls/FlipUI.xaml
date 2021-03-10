@@ -598,7 +598,7 @@
                 </FlipView.ItemTemplate>
             </FlipView>
 
-            <ListBox x:ConnectionId='65' x:Name="GalleryIndicator" Width="auto"  RelativePanel.Below="Gallery" RelativePanel.AlignHorizontalCenterWith="Gallery" Margin="50" Background="Transparent"
+            <ListBox x:ConnectionId='65' x:Name="GalleryIndicator" Width="auto"  RelativePanel.Below="Gallery" RelativePanel.AlignHorizontalCenterWith="Gallery" Margin="10" Background="Transparent"
                      ItemsSource="{Binding ItemsSource, ElementName=Gallery}" 
                      SelectedItem="{Binding SelectedItem, ElementName=Gallery, Mode=TwoWay}"
                      ItemContainerStyle="{StaticResource ListBoxItemStyle-DotIndicator}">

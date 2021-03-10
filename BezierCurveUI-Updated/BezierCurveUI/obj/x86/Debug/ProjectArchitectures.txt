@@ -1,1 +1,0 @@
-C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\BezierCurveUI\BezierCurveUI\BezierCurveUI.csproj;x86

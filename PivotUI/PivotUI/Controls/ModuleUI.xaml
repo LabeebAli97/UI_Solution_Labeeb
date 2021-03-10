@@ -19,6 +19,9 @@
                     <VisualState.Setters>
                         <Setter Target="Imag.MaxWidth" Value="961"/>
                         <Setter Target="Imag.MaxHeight" Value="718"/>
+
+                        <Setter Target="First.MinWidth" Value="470"/>
+
                     </VisualState.Setters>
                 </VisualState>
 
@@ -29,6 +32,8 @@
                     <VisualState.Setters>
                         <Setter Target="Imag.MaxWidth" Value="761"/>
                         <Setter Target="Imag.MaxHeight" Value="518"/>
+                        <Setter Target="First.MinWidth" Value="420"/>
+
                     </VisualState.Setters>
                 </VisualState>
 
@@ -39,16 +44,21 @@
                     <VisualState.Setters>
                         <Setter Target="Imag.MaxWidth" Value="461"/>
                         <Setter Target="Imag.MaxHeight" Value="318"/>
+                        <Setter Target="First.MinWidth" Value="370"/>
+
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        
-        
-        
 
-        <Image x:Name="Imag" Source="/Assets/Images/4_Left.png" VerticalAlignment="Center" Margin="0,0,-15,0" HorizontalAlignment="Right" MaxHeight="718" MaxWidth="961" />
-        <local:Module_HeadsetMix HorizontalAlignment="Left" Margin="52,317,0,0" VerticalAlignment="Top"/>
-        <local:Module_Text HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top"/>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35*" MinWidth="470" x:Name="First"/>
+            <ColumnDefinition Width="65*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="Imag" Source="/Assets/Images/4_Left.png" VerticalAlignment="Center"  HorizontalAlignment="Right" MaxHeight="718" MaxWidth="961" Height="661" Width="944" Grid.Column="1" />
+        <local:Module_HeadsetMix HorizontalAlignment="Left" Margin="52,281,0,0" VerticalAlignment="Top" Grid.Column="0"/>
+        <local:Module_Text HorizontalAlignment="Left" Margin="25,1,0,0" VerticalAlignment="Top" Grid.Column="0"/>
     </Grid>
 </UserControl>

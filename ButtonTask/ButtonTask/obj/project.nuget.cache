@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p/PCLH3PULXoL6oJs8av6PiyQ7C6ImYzMV67+7d41OST3OuUzhqZ+NlGFHBI5EcuBssCFhRp5Pe6i822KV9Zfg==",
+  "dgSpecHash": "bS9dhXw+TWHgCKzpCt+egQs5MUwpakasi7yJpW0sZZZvAhnEeGy5dq6582ocfRm7h/JPfsNb06KSowE2nDsjUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
+  "projectFilePath": "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\99002617\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\microsoft.net.native.compiler\\1.7.6\\microsoft.net.native.compiler.1.7.6.nupkg.sha512",

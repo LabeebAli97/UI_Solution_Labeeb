@@ -6,7 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    d:DesignHeight="300"
+    d:DesignHeight="270"
     d:DesignWidth="500">
     <Grid Background="Transparent">
 
@@ -26,7 +26,7 @@
 
                         <Setter Target="Xbox_Text.FontSize" Value="20"/>
 
-                        
+
                         <Setter Target="Text.FontSize" Value="30"/>
 
                         <Setter Target="Xbox_Button.FontSize" Value="16"/>
@@ -58,7 +58,7 @@
 
                         <Setter Target="Text.FontSize" Value="24"/>
 
-                        
+
                         <Setter Target="Xbox_Button.FontSize" Value="14"/>
 
                         <Setter Target="Xbox_Text.FontSize" Value="18"/>
@@ -101,7 +101,7 @@
                         <Setter Target="Image.Height" Value="27"/>
 
                         <Setter Target="border_text.FontSize" Value="9"/>
-                        
+
                         <Setter Target="border.Width" Value="33"/>
                         <Setter Target="border.Height" Value="15"/>
                         <Setter Target="border.CornerRadius" Value="10"/>
@@ -113,15 +113,15 @@
         </VisualStateManager.VisualStateGroups>
 
 
-        <Image x:ConnectionId='6' x:Name="Lines"  Margin="58,45,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Cross.JPG" Height="40" Width="225"/>
-        <TextBlock x:ConnectionId='7' x:Name="Text" Foreground="White" FontSize="30"  VerticalAlignment="Top" HorizontalAlignment="Left" Text="MODULES" FontFamily="A" Margin="66,85,0,0" Width="231" Height="67"/>
-        <TextBlock x:ConnectionId='8' x:Name="DetailText" Foreground="DimGray" FontSize="16"  VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Adjust your audio EQ to your liking and save them in one of three present slots, or choose from our EQ Profiles. " FontFamily="Bahnschrift Condensed" Margin="66,126,0,0"  Width="381" Height="86"/>
-        <Image x:ConnectionId='9' x:Name="Image" Margin="22,232,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Profile.png" Height="37" Width="43"/>
-        <TextBlock x:ConnectionId='10' x:Name="Xbox_Text" Foreground="White" FontSize="20" VerticalAlignment="Top"  HorizontalAlignment="Left" Text="Xbox" FontStyle="Normal" Margin="66,233,0,0" Height="61" Width="145" />
-        <Button x:ConnectionId='11' x:Name="Xbox_Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="294,233,0,0" VerticalAlignment="Top" Height="40" Width="40" FontSize="16" FontWeight="Bold" Background="#00000000" Foreground="White" />
-        <TextBlock x:ConnectionId='12' x:Name="Profile_Text" HorizontalAlignment="Left" Margin="66,260,0,0" Text="Active Profile" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="145" FontSize="13" FocusVisualPrimaryBrush="White" Foreground="#FFFF5A01" FontWeight="Bold" FontFamily="Adobe Garamond Pro"/>
-        <Border x:ConnectionId='13' x:Name="border" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="153,256,0,0" Padding="5" BorderThickness="1" Background="#FFFF5A01" CornerRadius="13" Height="19" Width="52">
-            <TextBlock x:ConnectionId='14' x:Name="border_text" Text="48V" HorizontalAlignment="Left" Width="61" Margin="6,-6,0,-6" Foreground="White" FontWeight="Bold"/>
+        <Image x:ConnectionId='6' x:Name="Lines"  Margin="58,40,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Cross.JPG" Height="25" Width="225"/>
+        <TextBlock x:ConnectionId='7' x:Name="Text" Foreground="White" FontSize="30"  VerticalAlignment="Top" HorizontalAlignment="Left" Text="MODULES" FontFamily="A" Margin="66,80,0,0" Width="231" Height="67"/>
+        <TextBlock x:ConnectionId='8' x:Name="DetailText" Foreground="DimGray" FontSize="16"  VerticalAlignment="Top" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Adjust your audio EQ to your liking and save them in one of three present slots, or choose from our EQ Profiles. " FontFamily="Bahnschrift Condensed" Margin="66,120,0,0"  Width="381" Height="86"/>
+        <Image x:ConnectionId='9' x:Name="Image" Margin="22,214,0,0" VerticalAlignment="Top"  HorizontalAlignment="Left" Source="/Assets/Images/Profile.png" Height="37" Width="43"/>
+        <TextBlock x:ConnectionId='10' x:Name="Xbox_Text" Foreground="White" FontSize="20" VerticalAlignment="Top"  HorizontalAlignment="Left" Text="Xbox" FontStyle="Normal" Margin="66,215,0,0" Height="61" Width="145" />
+        <Button x:ConnectionId='11' x:Name="Xbox_Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="294,215,0,0" VerticalAlignment="Top" Height="40" Width="40" FontSize="16" FontWeight="Bold" Background="#00000000" Foreground="White" />
+        <TextBlock x:ConnectionId='12' x:Name="Profile_Text" HorizontalAlignment="Left" Margin="66,242,0,0" Text="Active Profile" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="145" FontSize="13" FocusVisualPrimaryBrush="White" Foreground="#FFFF5A01" FontWeight="Bold" FontFamily="Adobe Garamond Pro"/>
+        <Border x:ConnectionId='13' x:Name="border" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="153,238,0,0" Padding="5" BorderThickness="1" Background="#FFFF5A01" CornerRadius="13" Height="19" Width="52">
+            <TextBlock x:ConnectionId='14' x:Name="border_text" Text="48V" HorizontalAlignment="Left" Width="61" Margin="6,-8,0,-4" Foreground="White" FontWeight="Bold"/>
         </Border>
     </Grid>
 </UserControl>

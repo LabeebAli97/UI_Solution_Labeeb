@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-02-16T10:19:36.134</Modified>
+      <Modified>2021-03-10T11:36:54.587</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
       <PackagePath>entrypoint\PivotUI.exe</PackagePath>
-      <Modified>2021-02-16T10:19:23.347</Modified>
+      <Modified>2021-03-10T11:36:49.013</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -594,39 +594,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
       <PackagePath>PivotUI.xr.xml</PackagePath>
-      <Modified>2021-02-16T07:40:06.004</Modified>
+      <Modified>2021-03-03T05:02:05.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.122</Modified>
+      <Modified>2021-03-10T11:36:48.645</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.125</Modified>
+      <Modified>2021-03-10T11:36:48.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
       <PackagePath>Controls\FlipUI.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.028</Modified>
+      <Modified>2021-03-10T11:36:48.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
       <PackagePath>Controls\Module-HeadsetMix.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.053</Modified>
+      <Modified>2021-03-10T11:36:48.603</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
       <PackagePath>Controls\Module-Text.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.059</Modified>
+      <Modified>2021-03-10T11:36:48.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
       <PackagePath>Controls\ModuleUI.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.141</Modified>
+      <Modified>2021-03-10T11:36:48.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
       <PackagePath>Controls\VideoUI.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.070</Modified>
+      <Modified>2021-03-10T11:36:48.615</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
       <PackagePath>Views\AstroMainPage.xbf</PackagePath>
-      <Modified>2021-02-16T10:19:23.121</Modified>
+      <Modified>2021-03-10T11:36:48.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -634,11 +634,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-02-16T10:19:26.917</Modified>
+      <Modified>2021-03-10T11:36:52.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
       <PackagePath>PivotUI.exe</PackagePath>
-      <Modified>2021-02-16T10:19:35.419</Modified>
+      <Modified>2021-03-10T11:36:54.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

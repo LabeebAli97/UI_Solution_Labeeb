@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\ButtonTask.csproj": {}
+    "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\ButtonTask.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\ButtonTask.csproj": {
+    "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\ButtonTask.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
+        "projectUniqueName": "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
         "projectName": "ButtonTask",
-        "projectPath": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
+        "projectPath": "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\ButtonTask.csproj",
         "packagesPath": "C:\\Users\\99002617\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\ButtonTask\\ButtonTask\\obj\\",
+        "outputPath": "C:\\Users\\99002617\\Documents\\GitHub\\UI_Solution_Labeeb\\ButtonTask\\ButtonTask\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

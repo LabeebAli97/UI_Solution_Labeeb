@@ -95,6 +95,8 @@ namespace ButtonTask
 
         private void List2_DragOver(object sender, DragEventArgs e)
         {
+            e.DragUIOverride.IsCaptionVisible = false;
+            e.DragUIOverride.IsGlyphVisible = false;
             e.AcceptedOperation = DataPackageOperation.Copy;
         }
 
@@ -123,12 +125,12 @@ namespace ButtonTask
                                 _selection.RemoveAt(index);                                
                             }
                             dropCollection.Insert(index, dragedItem as Info);
+                            
                         }
                         catch (Exception)
                         {
                             return;
                         }
-
                     }
                     //If you need to delete the draged item in the source ListView, then use the following code
                     //dragCollection.Remove(dragedItem as Info);
@@ -209,9 +211,7 @@ namespace ButtonTask
             var height = listItemContainer.ActualHeight;
             var marginTop = listItemContainer.Margin.Top;
             return marginTop + height;
-        }
-
-       
+        }       
     }
 
 
