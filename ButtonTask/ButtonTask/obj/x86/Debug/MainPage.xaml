@@ -354,6 +354,21 @@
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>
+
+            <!--<ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton GroupName="RadioBtn" IsChecked="{Binding check}"/>
+                    <Image Source="Assets/keypad.JPG" VerticalAlignment="Center"  Margin="-85,0,0,0" HorizontalAlignment="Left" Width="25" Height="25"/>
+                    <TextBlock x:Name="Text1" Text="Windows"  HorizontalAlignment="Left" Margin="-50,0,0,0" FontSize="20" Foreground="White"/>
+                </StackPanel>
+            </ListViewItem>
+            <ListViewItem>
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton GroupName="RadioBtn" IsChecked="{Binding check}"/>
+                    <Image Source="Assets/keypad.JPG" VerticalAlignment="Center"  Margin="-85,0,0,0" HorizontalAlignment="Left" Width="25" Height="25"/>
+                    <TextBlock x:Name="Text2" Text="Wireless"  HorizontalAlignment="Left" Margin="-50,0,0,0" FontSize="20" Foreground="White"/>
+                </StackPanel>
+            </ListViewItem>-->
         </ListView>
     </Grid>
 </Page>

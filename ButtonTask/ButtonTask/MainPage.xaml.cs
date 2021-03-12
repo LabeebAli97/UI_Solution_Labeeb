@@ -122,10 +122,19 @@ namespace ButtonTask
                         {
                             if (_selection.Count >= 2)
                             {
-                                _selection.RemoveAt(index);                                
+                                _selection.RemoveAt(index);
                             }
                             dropCollection.Insert(index, dragedItem as Info);
-                            
+
+                            //if (index == 0)
+                            //{
+                            //    Text1.Text = (dragedItem as Info).name;
+                            //}
+                            //else
+                            //{
+                            //    Text1.Text = (dragedItem as Info).name;
+                            //}
+
                         }
                         catch (Exception)
                         {
