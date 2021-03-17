@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>7253591959E7C8C5023ED221C28DC832EF96C764594B78CF3C797BC8998883BB</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>A90F4B5E228206EEF2BAECF31CD073F8642B757C6703E451143337109138430C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>eb02cbc2-d784-451e-a263-788c20420d88_1.0.0.0_x86__6wf1edj3156yt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>eb02cbc2-d784-451e-a263-788c20420d88_6wf1edj3156yt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>eb02cbc2-d784-451e-a263-788c20420d88</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-12T09:26:30.733</Modified>
+      <Modified>2021-03-17T06:25:03.199</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.exe">
       <PackagePath>entrypoint\ButtonTask.exe</PackagePath>
-      <Modified>2021-03-12T09:26:30.242</Modified>
+      <Modified>2021-03-17T06:25:02.360</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -554,15 +554,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.xr.xml">
       <PackagePath>ButtonTask.xr.xml</PackagePath>
-      <Modified>2021-03-12T09:26:30.123</Modified>
+      <Modified>2021-03-17T05:20:24.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-12T09:26:30.146</Modified>
+      <Modified>2021-03-17T06:25:02.249</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-12T09:26:30.146</Modified>
+      <Modified>2021-03-17T06:25:02.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -570,11 +570,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-09T05:31:30.449</Modified>
+      <Modified>2021-03-16T04:46:54.851</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\ButtonTask.exe">
       <PackagePath>ButtonTask.exe</PackagePath>
-      <Modified>2021-03-12T09:26:30.695</Modified>
+      <Modified>2021-03-17T06:25:03.175</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
