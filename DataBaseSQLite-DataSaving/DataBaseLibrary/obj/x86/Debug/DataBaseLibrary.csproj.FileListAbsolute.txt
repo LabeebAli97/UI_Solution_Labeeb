@@ -1,0 +1,102 @@
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.dll
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pdb
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pri
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CopyComplete
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.dll
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.pdb
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Labeeb Ali\source\repos\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csprojAssemblyReference.cache
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.dll
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pdb
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pri
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csprojAssemblyReference.cache
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CopyComplete
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.dll
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.pdb
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.dll
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pdb
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pri
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csprojAssemblyReference.cache
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CopyComplete
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.dll
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.pdb
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\Labeeb Ali\Downloads\UWPTraining-main\UWPTraining-main\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.dll
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pdb
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\DataBaseLibrary.pri
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CoreCompileInputs.cache
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csproj.CopyComplete
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.dll
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.pdb
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\filtered.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\excluded.layout.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\99002617\Documents\GitHub\UWPTraining\New\Database\DataBaseSQLite\DataBaseLibrary\obj\x86\Debug\DataBaseLibrary.csprojAssemblyReference.cache

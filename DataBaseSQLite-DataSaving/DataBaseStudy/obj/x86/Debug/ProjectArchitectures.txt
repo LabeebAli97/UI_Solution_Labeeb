@@ -1,0 +1,2 @@
+C:\Users\99002617\Desktop\DataBaseSQLite\DataBaseLibrary\DataBaseLibrary.csproj;x86
+C:\Users\99002617\Desktop\DataBaseSQLite\DataBaseStudy\DataBaseStudy.csproj;x86
