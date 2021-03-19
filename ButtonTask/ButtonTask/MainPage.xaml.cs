@@ -41,6 +41,8 @@ namespace ButtonTask
         ObservableCollection<Info> _reference;
         //ObservableCollection<Info> _selection;
 
+        WebAddress webAddress = new WebAddress();
+
 
         private ObservableCollection<Info> dragCollection;
         private ObservableCollection<Info> dropCollection;
@@ -68,8 +70,8 @@ namespace ButtonTask
         {
             return new ObservableCollection<Info>
             {
-                new Info(){name="Alecs Iphone",image="Assets/slowicon.png",check=true},
-                new Info(){name="Wireless",image="Assets/Profile.png",check=false},
+                new Info(){name="Alecs Iphone",image="Assets/Profile.png",check=true},
+                new Info(){name="Wireless",image="Assets/slowicon.png",check=false},
                 new Info(){name="3.5mm",image="Assets/StoreLogo.png",check=false},
                 new Info(){name="Element 4",image="Assets/Profile.png",check=false}
             };
@@ -407,24 +409,27 @@ namespace ButtonTask
 
             //Windows.System.Launcher.LaunchUriAsync API
 
-            Launch();
+            //Launch();
 
-            async void Launch()
-            {
-                string uriToLaunch = @"http://www.google.com";
-                Uri uri = new Uri(uriToLaunch);
+            //async void Launch()
+            //{
 
-                var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+            //    string uriToLaunch = webAddress.google;
+            //    Uri uri = new Uri(uriToLaunch);
 
-                if (success)
-                {
-                    // URI launched
-                }
-                else
-                {
-                    // URI launch failed
-                }
-            }
+            //    var success = await Windows.System.Launcher.LaunchUriAsync(uri);
+
+            //    if (success)
+            //    {
+            //        // URI launched
+            //    }
+            //    else
+            //    {
+            //        // URI launch failed
+            //    }
+            //}
+            this.Frame.Navigate(typeof(Flip));
+
         }
 
         private void List2_SelectionChanged(object sender, SelectionChangedEventArgs e)

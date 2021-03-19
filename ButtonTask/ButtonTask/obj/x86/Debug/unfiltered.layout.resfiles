@@ -1,5 +1,17 @@
 WinMetadata\Windows.winmd
 Assets\Background.png
+Assets\Fonts\GeoFont.otf
+Assets\Images\A50.png
+Assets\Images\Astro_Carina 2.png
+Assets\Images\Astro_Carina.png
+Assets\Images\Ellipse.png
+Assets\Images\Frame (1).png
+Assets\Images\Frame (2).png
+Assets\Images\Frame.png
+Assets\Images\Image.png
+Assets\Images\Square Grid (1).png
+Assets\Images\Square Grid.png
+Assets\Images\Vector.png
 Assets\keypad.JPG
 Assets\LockScreenLogo.scale-200.png
 Assets\Profile.png
@@ -12,5 +24,9 @@ Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
 ButtonTask.xr.xml
+Controls\FlipUI.xbf
+Controls\FlipUI-Images.xbf
+Controls\VolumeSlider.xbf
+Flip.xbf
 MainPage.xbf
 Properties\Default.rd.xml

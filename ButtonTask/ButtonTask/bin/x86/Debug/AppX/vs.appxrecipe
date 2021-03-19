@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>A90F4B5E228206EEF2BAECF31CD073F8642B757C6703E451143337109138430C</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>F3216EEF5A8CD15312D961CDDC13167A8BF97E0B00120CEB0014347ED96B50CD</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>eb02cbc2-d784-451e-a263-788c20420d88_1.0.0.0_x86__6wf1edj3156yt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>eb02cbc2-d784-451e-a263-788c20420d88_6wf1edj3156yt!App</RegisteredUserModeAppID>
     <RegisteredPackageID>eb02cbc2-d784-451e-a263-788c20420d88</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-17T06:25:03.199</Modified>
+      <Modified>2021-03-19T11:43:23.446</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.exe">
       <PackagePath>entrypoint\ButtonTask.exe</PackagePath>
-      <Modified>2021-03-17T06:25:02.360</Modified>
+      <Modified>2021-03-19T11:43:20.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -502,6 +502,50 @@
       <PackagePath>Assets\Background.png</PackagePath>
       <Modified>2021-03-04T11:57:08.255</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\A50.png">
+      <PackagePath>Assets\Images\A50.png</PackagePath>
+      <Modified>2021-03-18T11:31:19.792</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Astro_Carina 2.png">
+      <PackagePath>Assets\Images\Astro_Carina 2.png</PackagePath>
+      <Modified>2021-03-19T06:45:38.416</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Astro_Carina.png">
+      <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
+      <Modified>2021-03-18T11:31:19.781</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Ellipse.png">
+      <PackagePath>Assets\Images\Ellipse.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.937</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame %281%29.png">
+      <PackagePath>Assets\Images\Frame %281%29.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame %282%29.png">
+      <PackagePath>Assets\Images\Frame %282%29.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.947</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame.png">
+      <PackagePath>Assets\Images\Frame.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.954</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Image.png">
+      <PackagePath>Assets\Images\Image.png</PackagePath>
+      <Modified>2021-03-18T11:31:19.800</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Square Grid %281%29.png">
+      <PackagePath>Assets\Images\Square Grid %281%29.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.959</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Square Grid.png">
+      <PackagePath>Assets\Images\Square Grid.png</PackagePath>
+      <Modified>2021-03-19T06:37:42.965</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Vector.png">
+      <PackagePath>Assets\Images\Vector.png</PackagePath>
+      <Modified>2021-03-18T11:35:53.670</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Profile.png">
       <PackagePath>Assets\Profile.png</PackagePath>
       <Modified>2021-03-05T10:47:11.667</Modified>
@@ -552,17 +596,37 @@
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2021-03-04T11:54:29.777</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Fonts\GeoFont.otf">
+      <PackagePath>Assets\Fonts\GeoFont.otf</PackagePath>
+      <Modified>2021-03-19T07:33:46.356</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.xr.xml">
       <PackagePath>ButtonTask.xr.xml</PackagePath>
-      <Modified>2021-03-17T05:20:24.300</Modified>
+      <Modified>2021-03-19T09:50:39.563</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-17T06:25:02.249</Modified>
+      <Modified>2021-03-19T09:08:57.412</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI-Images.xbf">
+      <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
+      <Modified>2021-03-19T09:08:57.415</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI.xbf">
+      <PackagePath>Controls\FlipUI.xbf</PackagePath>
+      <Modified>2021-03-19T11:43:19.918</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\VolumeSlider.xbf">
+      <PackagePath>Controls\VolumeSlider.xbf</PackagePath>
+      <Modified>2021-03-19T09:08:57.348</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Flip.xbf">
+      <PackagePath>Flip.xbf</PackagePath>
+      <Modified>2021-03-19T09:08:57.417</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-17T06:25:02.248</Modified>
+      <Modified>2021-03-19T09:08:57.411</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -570,11 +634,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-16T04:46:54.851</Modified>
+      <Modified>2021-03-19T09:08:58.944</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\ButtonTask.exe">
       <PackagePath>ButtonTask.exe</PackagePath>
-      <Modified>2021-03-17T06:25:03.175</Modified>
+      <Modified>2021-03-19T11:43:23.407</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

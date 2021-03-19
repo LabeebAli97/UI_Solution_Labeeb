@@ -376,6 +376,39 @@
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\A50.png">
+      <PackagePath>Assets\Images\A50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Astro_Carina 2.png">
+      <PackagePath>Assets\Images\Astro_Carina 2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Astro_Carina.png">
+      <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Ellipse.png">
+      <PackagePath>Assets\Images\Ellipse.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame %281%29.png">
+      <PackagePath>Assets\Images\Frame %281%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame %282%29.png">
+      <PackagePath>Assets\Images\Frame %282%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Frame.png">
+      <PackagePath>Assets\Images\Frame.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Image.png">
+      <PackagePath>Assets\Images\Image.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Square Grid %281%29.png">
+      <PackagePath>Assets\Images\Square Grid %281%29.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Square Grid.png">
+      <PackagePath>Assets\Images\Square Grid.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Images\Vector.png">
+      <PackagePath>Assets\Images\Vector.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Profile.png">
       <PackagePath>Assets\Profile.png</PackagePath>
     </AppxPackagedFile>
@@ -415,11 +448,26 @@
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\Assets\Fonts\GeoFont.otf">
+      <PackagePath>Assets\Fonts\GeoFont.otf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.xr.xml">
       <PackagePath>ButtonTask.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI-Images.xbf">
+      <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI.xbf">
+      <PackagePath>Controls\FlipUI.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\VolumeSlider.xbf">
+      <PackagePath>Controls\VolumeSlider.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Flip.xbf">
+      <PackagePath>Flip.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
