@@ -433,6 +433,7 @@
                         <Setter Target="Pivot_Modules.FontSize" Value="24"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="24"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="24"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="24"/>
                       
                     </VisualState.Setters>
                 </VisualState>
@@ -444,6 +445,7 @@
                         <Setter Target="Pivot_Video.FontSize" Value="20"/>
                         <Setter Target="Pivot_Modules.FontSize" Value="20"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="20"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="20"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="20"/>
                       
                     </VisualState.Setters>
@@ -456,6 +458,7 @@
                         <Setter Target="Pivot_Video.FontSize" Value="16"/>
                         <Setter Target="Pivot_Modules.FontSize" Value="16"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="16"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="16"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="16"/>
                         
                     </VisualState.Setters>
@@ -476,7 +479,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='75' Text="Modules" x:Name="Pivot_Modules" />
+                        <TextBlock x:ConnectionId='78' Text="Modules" x:Name="Pivot_Modules" />
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:ModuleUI/>
@@ -485,7 +488,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='74' Text="Video" x:Name="Pivot_Video" />
+                        <TextBlock x:ConnectionId='77' Text="Video" x:Name="Pivot_Video" />
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:VideoUI/>
@@ -494,7 +497,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='73' Text="Equalizer" x:Name="Pivot_Equalizer" />
+                        <TextBlock x:ConnectionId='76' Text="Equalizer" x:Name="Pivot_Equalizer" />
                     </StackPanel>
                 </PivotItem.Header>
             </PivotItem>
@@ -502,10 +505,22 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='72' Text="FlipView" x:Name="Pivot_Flip"/>
+                        <TextBlock x:ConnectionId='75' Text="FlipView" x:Name="Pivot_Flip"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:FlipUI/>
+            </PivotItem>
+            <PivotItem >
+                <PivotItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
+                        <TextBlock x:ConnectionId='72' Text="Daisy Chain" x:Name="Pivot_Chain"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <RelativePanel>
+                    <Controls:DaisyChainUI x:ConnectionId='73' x:Name="Chain" Visibility="Visible"/>
+                    <Controls:TeamRedUI x:ConnectionId='74' x:Name="TeamRed" Visibility="Collapsed"/>
+                </RelativePanel>
             </PivotItem>
 
         </Pivot>

@@ -42,14 +42,16 @@
                     VerticalAlignment="Top" 
                     Height="31" Text="VIDEO" 
                     Foreground="White" 
+                    FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"
                     FontSize="28" 
-                    FontFamily="Times New Roman" 
+                     
                     FontWeight="Normal" />
 
         <TextBlock  HorizontalAlignment="Left" 
                     Margin="80,120,0,0" 
                     Text="Adjust your audio EQ to your liking and save them in one of three preset slots, or choose from our EQ profiles" 
                     Foreground="#FF817C7C" 
+                    FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"
                     TextWrapping="Wrap" 
                     VerticalAlignment="Top" 
                     Height="85" 

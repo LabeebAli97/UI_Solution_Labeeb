@@ -588,11 +588,17 @@
                       MaxHeight="400" 
                       RelativePanel.AlignHorizontalCenterWithPanel="True" 
                       RelativePanel.AlignVerticalCenterWithPanel="True"                                         
-                      ItemsSource="{x:Bind sampleList}">
-           
+                      ItemsSource="{x:Bind sampleList}"
+                      >
+                <FlipView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </FlipView.ItemsPanel>
 
                 <FlipView.ItemTemplate>
                     <DataTemplate>
+                        
                         <local:FlipUI_Images/>
                     </DataTemplate>
                 </FlipView.ItemTemplate>

@@ -107,7 +107,6 @@
 
 
         <!--Dot Indicator Context for FlipView -->
-
         <Style x:Key="ListBoxItemStyle-DotIndicator" TargetType="ListBoxItem">
 
             <Setter Property="Width" Value="15"/>
@@ -229,11 +228,13 @@
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
 
+                            <!--ModifiedHere-->
                             <!--Ellipse x:Name="PressedBackground" Fill="DarkGray" Control.IsTemplateFocusTarget="True" IsHitTestVisible="False" Margin="5,0,0,0" Stroke="Black" StrokeThickness="3" Opacity="1"/-->
                             <Polygon Points="2,0,6,0,8,4,6,8,2,8,0,4" x:Name="PressedBackground" Fill="DarkGray" Control.IsTemplateFocusTarget="True" IsHitTestVisible="False" Margin="6,0,0,0" Opacity="1" Height="10" Width="10"/>
                             <!--Rectangle x:Name="SelectedBackground" Fill="Black" Control.IsTemplateFocusTarget="True" IsHitTestVisible="False" Margin="5,0,0,0" Stroke="Black" StrokeThickness="1.5" Opacity="0" /-->
                             <Image x:Name="SelectedBackground" Source="/Assets/Images/Vector.png" Stretch="Fill" Control.IsTemplateFocusTarget="True" IsHitTestVisible="False" Margin="5,0,0,0" Opacity="0"/>
-
+                            <!--ModifiedHere-->
+                            
                             <ContentPresenter x:Name="ContentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" ContentTransitions="{TemplateBinding ContentTransitions}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" Style="{StaticResource BodyContentPresenterStyle}" TextWrapping="NoWrap" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
                         </Grid>
                     </ControlTemplate>
@@ -241,8 +242,7 @@
             </Setter>
         </Style>
         
-        <!--FlipView Style-->
-        
+        <!--FlipView Style-->       
         <Style x:Key="FlipViewCustomStyle" TargetType="FlipView">
             <Setter Property="Background" Value="{ThemeResource FlipViewBackground}"/>
             <Setter Property="BorderThickness" Value="0"/>
@@ -588,11 +588,17 @@
                       MaxHeight="400" 
                       RelativePanel.AlignHorizontalCenterWithPanel="True" 
                       RelativePanel.AlignVerticalCenterWithPanel="True"                                         
-                                                       >
-           
+                                                       
+                      >
+                <FlipView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <VirtualizingStackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </FlipView.ItemsPanel>
 
                 <FlipView.ItemTemplate>
                     <DataTemplate>
+                        
                         <local:FlipUI_Images/>
                     </DataTemplate>
                 </FlipView.ItemTemplate>

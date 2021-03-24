@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MUTSP00085</Machine>
-    <WindowsUser>40012936</WindowsUser>
+    <Machine>LABEEB</Machine>
+    <WindowsUser>Labeeb Ali</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
     <TargetOsDescription>Windows 10.0</TargetOsDescription>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1f05ed32-6acf-47b8-9928-7a70085f2c59</PackageIdentityName>
     <PackageIdentityPublisher>CN=40012936</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>56D5BBB2404143150863A057FDB209519872AFA8DACD3ECE1135C0CF6A779FF5</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>1f05ed32-6acf-47b8-9928-7a70085f2c59_1.0.0.0_x86__6wf1edj3156yt</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>1f05ed32-6acf-47b8-9928-7a70085f2c59_6wf1edj3156yt!App</RegisteredUserModeAppID>
@@ -27,20 +27,20 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-10T11:36:54.587</Modified>
+      <Modified>2021-03-24T16:13:40.738</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
       <PackagePath>entrypoint\PivotUI.exe</PackagePath>
-      <Modified>2021-03-10T11:36:49.013</Modified>
+      <Modified>2021-03-24T16:13:40.245</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
-      <Modified>2016-06-11T17:43:10.000</Modified>
+      <Modified>2016-06-11T16:43:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.netcore.portable.compatibility\1.0.2\lib\netcore50\System.ComponentModel.DataAnnotations.dll">
       <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
@@ -250,9 +250,9 @@
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
       <Modified>2016-07-01T09:18:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.dynamic.runtime\4.0.11\lib\netcore50\System.Dynamic.Runtime.dll">
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
-      <Modified>2016-06-11T17:43:42.000</Modified>
+      <Modified>2016-06-11T16:43:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
@@ -266,9 +266,9 @@
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
       <Modified>2016-06-11T16:43:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T17:43:46.000</Modified>
+      <Modified>2016-06-11T16:43:46.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.isolatedstorage\4.0.1\lib\netcore50\System.IO.IsolatedStorage.dll">
       <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
@@ -278,21 +278,21 @@
       <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
       <Modified>2016-06-11T16:43:50.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq\4.1.0\lib\netcore50\System.Linq.dll">
       <PackagePath>System.Linq.dll</PackagePath>
-      <Modified>2016-06-11T17:44:02.000</Modified>
+      <Modified>2016-06-11T16:44:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.expressions\4.1.0\lib\netcore50\System.Linq.Expressions.dll">
       <PackagePath>System.Linq.Expressions.dll</PackagePath>
-      <Modified>2016-06-11T17:43:54.000</Modified>
+      <Modified>2016-06-11T16:43:54.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.parallel\4.0.1\lib\netcore50\System.Linq.Parallel.dll">
       <PackagePath>System.Linq.Parallel.dll</PackagePath>
       <Modified>2016-06-11T16:43:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.linq.queryable\4.0.1\lib\netcore50\System.Linq.Queryable.dll">
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
-      <Modified>2016-06-11T17:43:58.000</Modified>
+      <Modified>2016-06-11T16:43:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
@@ -334,9 +334,9 @@
       <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
       <Modified>2016-06-11T16:44:06.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.objectmodel\4.0.12\lib\netcore50\System.ObjectModel.dll">
       <PackagePath>System.ObjectModel.dll</PackagePath>
-      <Modified>2016-06-11T17:44:10.000</Modified>
+      <Modified>2016-06-11T16:44:10.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.private.datacontractserialization\4.1.2\lib\netstandard1.3\System.Private.DataContractSerialization.dll">
       <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
@@ -354,25 +354,25 @@
       <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
       <Modified>2016-06-11T16:44:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit\4.0.1\lib\netcore50\System.Reflection.Emit.dll">
       <PackagePath>System.Reflection.Emit.dll</PackagePath>
-      <Modified>2016-06-11T17:44:16.000</Modified>
+      <Modified>2016-06-11T16:44:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit.ilgeneration\4.0.1\lib\netcore50\System.Reflection.Emit.ILGeneration.dll">
       <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
-      <Modified>2016-06-11T17:44:14.000</Modified>
+      <Modified>2016-06-11T16:44:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.emit.lightweight\4.0.1\lib\netcore50\System.Reflection.Emit.Lightweight.dll">
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
-      <Modified>2016-06-11T17:44:16.000</Modified>
+      <Modified>2016-06-11T16:44:16.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
       <Modified>2016-06-11T16:44:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
-      <Modified>2016-06-11T17:44:22.000</Modified>
+      <Modified>2016-06-11T16:44:22.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.interopservices.windowsruntime\4.0.1\lib\netcore50\System.Runtime.InteropServices.WindowsRuntime.dll">
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
@@ -386,9 +386,9 @@
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
       <Modified>2017-02-09T07:56:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.primitives\4.1.1\lib\netcore50\System.Runtime.Serialization.Primitives.dll">
       <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T17:44:32.000</Modified>
+      <Modified>2016-06-11T16:44:32.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.xml\4.1.2\lib\netcore50\System.Runtime.Serialization.Xml.dll">
       <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
@@ -454,13 +454,13 @@
       <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
       <Modified>2016-06-11T16:44:46.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.text.regularexpressions\4.1.0\lib\netcore50\System.Text.RegularExpressions.dll">
       <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
-      <Modified>2016-06-11T17:44:52.000</Modified>
+      <Modified>2016-06-11T16:44:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading\4.0.11\lib\netcore50\System.Threading.dll">
       <PackagePath>System.Threading.dll</PackagePath>
-      <Modified>2016-06-11T17:45:00.000</Modified>
+      <Modified>2016-06-11T16:45:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.overlapped\4.0.1\runtimes\win\lib\netcore50\System.Threading.Overlapped.dll">
       <PackagePath>System.Threading.Overlapped.dll</PackagePath>
@@ -470,21 +470,21 @@
       <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
       <Modified>2016-06-11T16:44:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.extensions\4.0.0\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll">
       <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T17:44:52.000</Modified>
+      <Modified>2016-06-11T16:44:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.threading.tasks.parallel\4.0.1\lib\netcore50\System.Threading.Tasks.Parallel.dll">
       <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
       <Modified>2016-06-11T16:44:54.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.readerwriter\4.0.11\lib\netcore50\System.Xml.ReaderWriter.dll">
       <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
-      <Modified>2016-06-11T17:45:00.000</Modified>
+      <Modified>2016-06-11T16:45:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\.nuget\packages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xdocument\4.0.11\lib\netcore50\System.Xml.XDocument.dll">
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
-      <Modified>2016-06-11T17:45:00.000</Modified>
+      <Modified>2016-06-11T16:45:00.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
@@ -498,147 +498,167 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T13:06:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\4_Left.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\4_Left.png">
       <PackagePath>Assets\Images\4_Left.png</PackagePath>
-      <Modified>2021-02-10T08:55:20.879</Modified>
+      <Modified>2021-03-22T05:51:46.981</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\A50.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\A50.png">
       <PackagePath>Assets\Images\A50.png</PackagePath>
-      <Modified>2021-02-16T07:03:54.501</Modified>
+      <Modified>2021-03-22T05:51:46.982</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina 2.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina 2.png">
       <PackagePath>Assets\Images\Astro_Carina 2.png</PackagePath>
-      <Modified>2021-02-16T07:06:03.253</Modified>
+      <Modified>2021-03-22T05:51:46.983</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina.png">
       <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
-      <Modified>2021-02-16T10:18:36.582</Modified>
+      <Modified>2021-03-22T05:51:46.985</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Background.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Background.png">
       <PackagePath>Assets\Images\Background.png</PackagePath>
-      <Modified>2021-02-09T12:16:59.693</Modified>
+      <Modified>2021-03-22T05:51:46.988</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture.PNG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\BoontaEveDaisyChain.png">
+      <PackagePath>Assets\Images\BoontaEveDaisyChain.png</PackagePath>
+      <Modified>2021-03-24T08:31:58.794</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture.PNG">
       <PackagePath>Assets\Images\Capture.PNG</PackagePath>
-      <Modified>2021-02-10T06:57:50.367</Modified>
+      <Modified>2021-03-22T05:51:46.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture1.PNG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture1.PNG">
       <PackagePath>Assets\Images\Capture1.PNG</PackagePath>
-      <Modified>2021-02-10T06:57:36.893</Modified>
+      <Modified>2021-03-22T05:51:46.989</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\image 3.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Chainnew.png">
+      <PackagePath>Assets\Images\Chainnew.png</PackagePath>
+      <Modified>2021-03-24T08:31:58.319</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\image 3.png">
       <PackagePath>Assets\Images\image 3.png</PackagePath>
-      <Modified>2021-02-10T06:56:04.150</Modified>
+      <Modified>2021-03-22T05:51:46.994</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Image.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Image.png">
       <PackagePath>Assets\Images\Image.png</PackagePath>
-      <Modified>2021-02-16T07:03:54.695</Modified>
+      <Modified>2021-03-22T05:51:46.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Profile.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Profile.png">
       <PackagePath>Assets\Images\Profile.png</PackagePath>
-      <Modified>2021-02-10T06:33:50.716</Modified>
+      <Modified>2021-03-22T05:51:46.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\slowicon.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\slowicon.png">
       <PackagePath>Assets\Images\slowicon.png</PackagePath>
-      <Modified>2021-02-10T06:48:16.184</Modified>
+      <Modified>2021-03-22T05:51:47.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Vector.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Vector.png">
       <PackagePath>Assets\Images\Vector.png</PackagePath>
-      <Modified>2021-02-10T09:42:02.689</Modified>
+      <Modified>2021-03-22T05:51:46.992</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2021-01-07T07:21:48.725</Modified>
+      <Modified>2021-03-22T05:51:47.018</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.019</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.043</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.044</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-01-07T07:21:48.734</Modified>
+      <Modified>2021-03-22T05:51:47.045</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Cross.JPG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Cross.JPG">
       <PackagePath>Assets\Images\Cross.JPG</PackagePath>
-      <Modified>2021-02-10T08:49:01.392</Modified>
+      <Modified>2021-03-22T05:51:46.990</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\keypad.JPG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\keypad.JPG">
       <PackagePath>Assets\Images\keypad.JPG</PackagePath>
-      <Modified>2021-02-10T07:18:03.468</Modified>
+      <Modified>2021-03-22T05:51:47.017</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2021-02-09T12:00:04.455</Modified>
+      <Modified>2021-03-22T05:51:47.128</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Fonts\Geo.otf">
+      <PackagePath>Assets\Fonts\Geo.otf</PackagePath>
+      <Modified>2021-03-24T08:37:35.067</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
       <PackagePath>PivotUI.xr.xml</PackagePath>
-      <Modified>2021-03-03T05:02:05.550</Modified>
+      <Modified>2021-03-24T15:51:02.295</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.645</Modified>
+      <Modified>2021-03-24T16:13:40.129</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\DaisyChainUI.xbf">
+      <PackagePath>Controls\DaisyChainUI.xbf</PackagePath>
+      <Modified>2021-03-24T16:13:39.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.647</Modified>
+      <Modified>2021-03-24T16:13:40.130</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
       <PackagePath>Controls\FlipUI.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.539</Modified>
+      <Modified>2021-03-24T16:13:40.013</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
       <PackagePath>Controls\Module-HeadsetMix.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.603</Modified>
+      <Modified>2021-03-24T16:13:40.033</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
       <PackagePath>Controls\Module-Text.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.608</Modified>
+      <Modified>2021-03-24T16:13:40.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
       <PackagePath>Controls\ModuleUI.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.648</Modified>
+      <Modified>2021-03-24T16:13:40.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\TeamRedUI.xbf">
+      <PackagePath>Controls\TeamRedUI.xbf</PackagePath>
+      <Modified>2021-03-24T16:13:40.076</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
       <PackagePath>Controls\VideoUI.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.615</Modified>
+      <Modified>2021-03-24T16:13:40.081</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
       <PackagePath>Views\AstroMainPage.xbf</PackagePath>
-      <Modified>2021-03-10T11:36:48.643</Modified>
+      <Modified>2021-03-24T16:13:40.129</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2019-03-18T12:03:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-10T11:36:52.984</Modified>
+      <Modified>2021-03-24T15:51:04.774</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\99002617\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
       <PackagePath>PivotUI.exe</PackagePath>
-      <Modified>2021-03-10T11:36:54.514</Modified>
+      <Modified>2021-03-24T16:13:40.676</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

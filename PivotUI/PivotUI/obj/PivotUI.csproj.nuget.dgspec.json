@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj": {}
+    "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj": {
+    "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
+        "projectUniqueName": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
         "projectName": "PivotUI",
-        "projectPath": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
-        "packagesPath": "C:\\Users\\99002617\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\99002617\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\obj\\",
+        "projectPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
+        "packagesPath": "C:\\Users\\Labeeb Ali\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\99002617\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Labeeb Ali\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

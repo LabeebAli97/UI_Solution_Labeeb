@@ -1,11 +1,14 @@
 WinMetadata\Windows.winmd
+Assets\Fonts\Geo.otf
 Assets\Images\4_Left.png
 Assets\Images\A50.png
 Assets\Images\Astro_Carina 2.png
 Assets\Images\Astro_Carina.png
 Assets\Images\Background.png
+Assets\Images\BoontaEveDaisyChain.png
 Assets\Images\Capture.PNG
 Assets\Images\Capture1.PNG
+Assets\Images\Chainnew.png
 Assets\Images\Cross.JPG
 Assets\Images\image 3.png
 Assets\Images\Image.png
@@ -21,11 +24,13 @@ Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
 Assets\Wide310x150Logo.scale-200.png
 App.xbf
+Controls\DaisyChainUI.xbf
 Controls\FlipUI.xbf
 Controls\FlipUI-Images.xbf
 Controls\Module-HeadsetMix.xbf
 Controls\Module-Text.xbf
 Controls\ModuleUI.xbf
+Controls\TeamRedUI.xbf
 Controls\VideoUI.xbf
 PivotUI.xr.xml
 Views\AstroMainPage.xbf

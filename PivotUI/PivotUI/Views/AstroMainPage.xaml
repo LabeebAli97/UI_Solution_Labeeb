@@ -433,6 +433,7 @@
                         <Setter Target="Pivot_Modules.FontSize" Value="24"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="24"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="24"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="24"/>
                       
                     </VisualState.Setters>
                 </VisualState>
@@ -444,6 +445,7 @@
                         <Setter Target="Pivot_Video.FontSize" Value="20"/>
                         <Setter Target="Pivot_Modules.FontSize" Value="20"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="20"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="20"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="20"/>
                       
                     </VisualState.Setters>
@@ -456,6 +458,7 @@
                         <Setter Target="Pivot_Video.FontSize" Value="16"/>
                         <Setter Target="Pivot_Modules.FontSize" Value="16"/>
                         <Setter Target="Pivot_Equalizer.FontSize" Value="16"/>
+                        <Setter Target="Pivot_Chain.FontSize" Value="16"/>
                         <Setter Target="Pivot_Flip.FontSize" Value="16"/>
                         
                     </VisualState.Setters>
@@ -506,6 +509,18 @@
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:FlipUI/>
+            </PivotItem>
+            <PivotItem >
+                <PivotItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
+                        <TextBlock Text="Daisy Chain" x:Name="Pivot_Chain"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <RelativePanel>
+                    <Controls:DaisyChainUI x:Name="Chain" Visibility="Visible"/>
+                    <Controls:TeamRedUI x:Name="TeamRed" Visibility="Collapsed"/>
+                </RelativePanel>
             </PivotItem>
 
         </Pivot>
