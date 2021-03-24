@@ -1,1 +1,1 @@
-C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\PivotUI.csproj;x86
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\PivotUI.csproj;x86

@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>1f05ed32-6acf-47b8-9928-7a70085f2c59</PackageIdentityName>
     <PackageIdentityPublisher>CN=40012936</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
       <PackagePath>entrypoint\PivotUI.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -373,127 +373,127 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\4_Left.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\4_Left.png">
       <PackagePath>Assets\Images\4_Left.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\A50.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\A50.png">
       <PackagePath>Assets\Images\A50.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina 2.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Astro_Carina 2.png">
       <PackagePath>Assets\Images\Astro_Carina 2.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Astro_Carina.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Astro_Carina.png">
       <PackagePath>Assets\Images\Astro_Carina.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Background.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Background.png">
       <PackagePath>Assets\Images\Background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\BoontaEveDaisyChain.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\BoontaEveDaisyChain.png">
       <PackagePath>Assets\Images\BoontaEveDaisyChain.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture.PNG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Capture.PNG">
       <PackagePath>Assets\Images\Capture.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Capture1.PNG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Capture1.PNG">
       <PackagePath>Assets\Images\Capture1.PNG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Chainnew.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Chainnew.png">
       <PackagePath>Assets\Images\Chainnew.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\image 3.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\image 3.png">
       <PackagePath>Assets\Images\image 3.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Image.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Image.png">
       <PackagePath>Assets\Images\Image.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Profile.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Profile.png">
       <PackagePath>Assets\Images\Profile.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\slowicon.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\slowicon.png">
       <PackagePath>Assets\Images\slowicon.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Vector.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Vector.png">
       <PackagePath>Assets\Images\Vector.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\Cross.JPG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\Cross.JPG">
       <PackagePath>Assets\Images\Cross.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Images\keypad.JPG">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Images\keypad.JPG">
       <PackagePath>Assets\Images\keypad.JPG</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\Assets\Fonts\Geo.otf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\Assets\Fonts\Geo.otf">
       <PackagePath>Assets\Fonts\Geo.otf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
       <PackagePath>PivotUI.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\DaisyChainUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\DaisyChainUI.xbf">
       <PackagePath>Controls\DaisyChainUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
       <PackagePath>Controls\FlipUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
       <PackagePath>Controls\Module-HeadsetMix.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
       <PackagePath>Controls\Module-Text.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
       <PackagePath>Controls\ModuleUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\TeamRedUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\TeamRedUI.xbf">
       <PackagePath>Controls\TeamRedUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
       <PackagePath>Controls\VideoUI.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
       <PackagePath>Views\AstroMainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UWPTraining\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
       <PackagePath>PivotUI.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

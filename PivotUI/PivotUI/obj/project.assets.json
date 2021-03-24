@@ -28029,11 +28029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
+      "projectUniqueName": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UI_Solution_Labeeb\\PivotUI\\PivotUI\\PivotUI.csproj",
       "projectName": "PivotUI",
-      "projectPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\PivotUI.csproj",
+      "projectPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UI_Solution_Labeeb\\PivotUI\\PivotUI\\PivotUI.csproj",
       "packagesPath": "C:\\Users\\Labeeb Ali\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UWPTraining\\PivotUI\\PivotUI\\obj\\",
+      "outputPath": "C:\\Users\\Labeeb Ali\\Documents\\GitHub\\UI_Solution_Labeeb\\PivotUI\\PivotUI\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

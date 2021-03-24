@@ -30,6 +30,8 @@ namespace PivotUI.Controls
         {
             this.InitializeComponent();
             ChainList.ItemsSource = GetData();
+            ChainList.SelectedIndex = 0;
+            
         }
 
         private ObservableCollection<ChainListItems> GetData()
@@ -59,6 +61,7 @@ namespace PivotUI.Controls
         private void chainAdd_Click(object sender, RoutedEventArgs e)
         {
             chainList.Insert(0,new ChainListItems(createText.Text,"Connected"));
+            
             ChainList.ItemsSource = chainList;
             if (ChainCreatePopup.IsOpen) { ChainCreatePopup.IsOpen = false; }
         }
@@ -82,30 +85,39 @@ namespace PivotUI.Controls
         {
             ListView ListView = (ListView)sender as ListView;
 
-            foreach(var item in ListView.Items)
+            foreach (var item in ListView.Items)
             {
                 var ListViewItem = (ListViewItem)ListView.ContainerFromItem(item) as ListViewItem;
                 var itemGrid = (Grid)ListViewItem.ContentTemplateRoot as Grid;
                 var status = itemGrid.FindName("conn") as TextBlock;
                 var name = itemGrid.FindName("name") as TextBlock;
 
+                var select = ChainList.SelectedItem;
+
+
                 if (ListViewItem.IsSelected)
                 {
-                    if(status.Text!="Locked" && status.Text != "Blocked")
+                    if (status.Text != "Locked" && status.Text != "Blocked")
                     {
                         status.Text = "Connected";
                         status.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 54, 0));
-                    }                    
-                }              
+                    }
+                }
+                else if ((select as ChainListItems).Connection == "Locked" || (select as ChainListItems).Connection == "Blocked")
+                {
+
+                }
                 else
                 {
-                    if(status.Text != "Locked" && status.Text != "Blocked")
+                    if (status.Text != "Locked" && status.Text != "Blocked")
                     {
                         status.Text = "Not Connected";
                         status.Foreground = new SolidColorBrush(Colors.Gray);
                     }
- 
                 }
+
+            
+        
 
             }
         }
