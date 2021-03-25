@@ -272,18 +272,91 @@
                 </Setter.Value>
             </Setter>
         </Style>
+        <Style x:Key="ButtonStyle4" TargetType="Button">
+            <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
+            <Setter Property="BackgroundSizing" Value="OuterBorderEdge"/>
+            <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
+            <Setter Property="BorderBrush" Value="{ThemeResource ButtonBorderBrush}"/>
+            <Setter Property="BorderThickness" Value="{ThemeResource ButtonBorderThemeThickness}"/>
+            <Setter Property="Padding" Value="{StaticResource ButtonPadding}"/>
+            <Setter Property="HorizontalAlignment" Value="Left"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{StaticResource UseSystemFocusVisuals}"/>
+            <Setter Property="FocusVisualMargin" Value="-3"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <ContentPresenter x:Name="ContentPresenter" AutomationProperties.AccessibilityView="Raw" BackgroundSizing="{TemplateBinding BackgroundSizing}" Background="{TemplateBinding Background}" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content}" CornerRadius="{TemplateBinding CornerRadius}" ContentTransitions="{TemplateBinding ContentTransitions}" HorizontalContentAlignment="{TemplateBinding HorizontalContentAlignment}" Padding="{TemplateBinding Padding}" VerticalContentAlignment="{TemplateBinding VerticalContentAlignment}">
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal">
+                                        <Storyboard>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <PointerUpThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Pressed">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Black"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <PointerDownThemeAnimation Storyboard.TargetName="ContentPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ButtonForegroundDisabled}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                        </ContentPresenter>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
 
     <Grid>
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition x:ConnectionId='26' Width="40*" x:Name="First" MinWidth="400"/>
+            <ColumnDefinition x:ConnectionId='33' Width="40*" x:Name="First" MinWidth="400"/>
             <ColumnDefinition Width="10*"/>
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
 
-        <Image x:ConnectionId='27'  HorizontalAlignment="Left" 
+        <Image x:ConnectionId='34'  HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 Source="/Assets/Images/BoontaEveDaisyChain.png" 
                 x:Name="Ima"
@@ -319,63 +392,107 @@
                     FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"
                     TextWrapping="Wrap" 
                     VerticalAlignment="Top" 
-                    Height="85" 
-                    Width="300" 
+                    Height="50" 
+                    Width="370" 
                     FontSize="16" />
 
-        <Button x:ConnectionId='28' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="LEAVE CHAIN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,200,0,0" FontSize="16" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="280" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"                     />
+        <Button x:ConnectionId='35' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="LEAVE CHAIN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,180,0,0" FontSize="20" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="360" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"                     />
 
-        <ListView x:ConnectionId='29' Style="{StaticResource ListViewStyle1}" x:Name="RedList" Background="Transparent" Padding="4" Margin="73,280,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="270" Height="auto" MaxHeight="320" >
-                <ListView.Resources>
-                    <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
-                    <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
-                    <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="Transparent" />
+        <StackPanel Orientation="Horizontal" Margin="80,245,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
+            <StackPanel Orientation="Vertical">
+                <TextBlock x:ConnectionId='46' x:Name="ChainSettings" Text="Chain Setting" FontSize="24" Foreground="White" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
+                <TextBlock x:ConnectionId='47' x:Name="SettingsText" Text="Adjust settings for the chain" FontSize="16" Foreground="Gray" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
+            </StackPanel>
+            <Button x:ConnectionId='45'  x:Name="btSettings" 
+                FontFamily="Segoe MDL2 Assets" 
+                Content="&#xE76C;"                
+                VerticalAlignment="Center"
+                Margin="130,0,0,0"
+                Height="40" 
+                Width="40"                
+                FontSize="16" 
+                FontWeight="Bold" 
+                Background="Transparent"
+                Foreground="White" />
+        </StackPanel>
+        <ListView x:ConnectionId='36' Style="{StaticResource ListViewStyle1}" x:Name="RedList" Background="Transparent" Padding="4" Margin="73,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="270" Height="auto" MaxHeight="320"                                            >
+            <ListView.Resources>
+                <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
+                <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
+                <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPressed" Color="Transparent" />
 
-                </ListView.Resources>
-                <ListView.ItemTemplate>
+            </ListView.Resources>
+            <ListView.ItemTemplate>
                 <DataTemplate                                >
-                        <Grid Width="236" Height="50">
-                            <StackPanel Orientation="Horizontal" Width="262">
-                                <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" HorizontalAlignment="Left" Margin="6,0,0,0"/>
-                                <TextBlock Text="{Binding Name}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Right" FontSize="16" Foreground="White" Margin="10,0,0,0"/>
+                    <Grid Width="236" Height="50">
+                        <StackPanel Orientation="Horizontal" Width="262">
+                            <Image Source="/Assets/Images/Profile.png" Width="30" Height="30" HorizontalAlignment="Left" Margin="4,0,0,0"/>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock  x:Name="UserName" Text="{Binding Name}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="16" Foreground="White" Margin="15,10,0,0"/>
+                                <TextBlock x:Name="UserStatus" Text="{Binding Status}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="12" Foreground="#FF3600" Margin="15,0,0,0"/>
                             </StackPanel>
-                        <Button x:Name="Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" VerticalAlignment="Center" HorizontalAlignment="Right" Height="30" Width="30" FontSize="12" FontWeight="Bold" Background="#00000000" Foreground="White">
-                            <Button.Flyout>
+                        </StackPanel>
+                        <Button x:ConnectionId='39' x:Name="FlyButton" Style="{StaticResource ButtonStyle4}" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="206,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Height="40" Width="40" FontSize="12" FontWeight="Bold" Background="Transparent" Foreground="White"                       >
+                            <!--<Button.Flyout>
                                 <Flyout Placement="Right">
                                     <Flyout.FlyoutPresenterStyle>
                                         <Style TargetType="FlyoutPresenter">
-                                            <Setter Property="Background" Value="#FF252525"/>
+                                            <Setter Property="Background" Value="#FF151515"/>
                                         </Style>
                                     </Flyout.FlyoutPresenterStyle>
-                                    <ListView Background="Transparent">
-                                        <ListViewItem  Background="#FF252525" >
-                                            <TextBlock Text="Mute User"/>
+
+                                    --><!--<ToggleButton x:Name="MuteStatus" Content="Mute User" VerticalAlignment="Center" Checked="MuteStatus_Checked"/>-->
+                                    <!--<ListView Background="Transparent" x:Name="FlyList" SelectionChanged="FlyList_SelectionChanged">
+                                        --><!--<ListView.ItemTemplate>
+                                            <DataTemplate x:DataType="model:TeamRedItems">
+                                                <Grid x:Name="FlyoutGrid" Width="180" Height="50">
+                                                    <TextBlock Text="{Binding ChainStatus}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="16" Foreground="White" Margin="15,10,0,0"/>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ListView.ItemTemplate>--><!--
+                                        <ListViewItem  Background="#FF151515" >
+                                            <TextBlock x:Name="MuteStatus" Text="Mute User" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"/>
                                         </ListViewItem>
-                                        <ListViewItem  Background="#FF252525" >
-                                            <TextBlock Text="Block From Chain"/>
+                                        <ListViewItem  Background="#FF151515" >
+                                            <TextBlock x:Name="ChainStatus" Text="Block From Chain" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"/>
                                         </ListViewItem>
-                                        <ListViewItem  Background="#FF252525" >
-                                            <TextBlock Text="Make Host"/>
+                                        <ListViewItem  Background="#FF151515" >
+                                            <TextBlock x:Name="HostStatus" Text="Make Host" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"/>
 
                                         </ListViewItem>
-                                    </ListView>
+                                    </ListView>--><!--
                                 </Flyout>
+                            </Button.Flyout>-->
+
+                            <Button.Flyout>
+                                <MenuFlyout Placement="Right">
+                                    <MenuFlyout.MenuFlyoutPresenterStyle>
+                                        <Style TargetType="MenuFlyoutPresenter">
+                                            <Setter Property="Background" Value="#FF151515"/>
+                                            
+                                        </Style>
+                                    </MenuFlyout.MenuFlyoutPresenterStyle>
+                                    <MenuFlyoutItem x:ConnectionId='40' x:Name="MuteStatus" Text="Mute User" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
+                                    <MenuFlyoutItem x:ConnectionId='41' x:Name="ChainStatus" Text="Block From Chain" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                          />
+                                    <MenuFlyoutItem x:ConnectionId='42' x:Name="HostStatus" Text="Make Host" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
+                                </MenuFlyout>
                             </Button.Flyout>
+                            
                         </Button>
                     </Grid>
-                    </DataTemplate>
-                </ListView.ItemTemplate>
+                </DataTemplate>
+            </ListView.ItemTemplate>
 
-                <ListView.ItemContainerStyle>
-                    <Style TargetType="ListViewItem">
-                        <Setter Property="Background" Value="#FF151515"/>
-                        <Setter Property="Margin" Value="0,1.5,0,0"/>
-                        <Setter Property="Height" Value="50"/>
-                    </Style>
-                </ListView.ItemContainerStyle>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="Background" Value="#FF252525"/>
+                    <Setter Property="Margin" Value="0,1.5,0,0"/>
+                    <Setter Property="Height" Value="50"/>
+                </Style>
+            </ListView.ItemContainerStyle>
 
-            </ListView>
-            
+        </ListView>
+
     </Grid>
 </UserControl>
 

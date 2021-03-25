@@ -26,7 +26,6 @@ App.xbf
 ButtonTask.xr.xml
 Controls\FlipUI.xbf
 Controls\FlipUI-Images.xbf
-Controls\VolumeSlider.xbf
 Flip.xbf
 MainPage.xbf
 Properties\Default.rd.xml

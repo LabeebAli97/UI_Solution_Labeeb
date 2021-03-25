@@ -10,6 +10,172 @@
     d:DesignHeight="700"
     d:DesignWidth="1200">
     <UserControl.Resources>
+        
+        <Style x:Key="TextBoxStyle1" TargetType="TextBox">
+            <Setter Property="Foreground" Value="#FF3600"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderBrush" Value="#FF3600"/>
+            <Setter Property="SelectionHighlightColor" Value="{ThemeResource TextControlSelectionHighlightColor}"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="FontFamily" Value="{ThemeResource ContentControlThemeFontFamily}"/>
+            <Setter Property="FontSize" Value="{ThemeResource ControlContentThemeFontSize}"/>
+            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Auto"/>
+            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Auto"/>
+            <Setter Property="ScrollViewer.HorizontalScrollBarVisibility" Value="Hidden"/>
+            <Setter Property="ScrollViewer.VerticalScrollBarVisibility" Value="Hidden"/>
+            <Setter Property="ScrollViewer.IsDeferredScrollingEnabled" Value="False"/>
+            <Setter Property="Padding" Value="{ThemeResource TextControlThemePadding}"/>
+            <Setter Property="UseSystemFocusVisuals" Value="{ThemeResource IsApplicationFocusVisualKindReveal}"/>
+            <Setter Property="ContextFlyout" Value="{StaticResource TextControlCommandBarContextFlyout}"/>
+            <Setter Property="SelectionFlyout" Value="{StaticResource TextControlCommandBarSelectionFlyout}"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Grid>
+                            <Grid.Resources>
+                                <Style x:Name="DeleteButtonStyle" TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Grid x:Name="ButtonLayoutGrid" IsHitTestVisible="False" Opacity="0" Background="Transparent" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="Transparent">
+                                                    <VisualStateManager.VisualStateGroups>
+                                                        <VisualStateGroup x:Name="CommonStates">
+                                                            <VisualState x:Name="Normal"/>
+                                                            <VisualState x:Name="PointerOver">
+                                                                <Storyboard>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="Background">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="BorderBrush">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="GlyphElement" Storyboard.TargetProperty="Foreground">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Pressed">
+                                                                <Storyboard>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="Background">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="BorderBrush">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                    <ObjectAnimationUsingKeyFrames Storyboard.TargetName="GlyphElement" Storyboard.TargetProperty="Foreground">
+                                                                        <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                                                    </ObjectAnimationUsingKeyFrames>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                            <VisualState x:Name="Disabled">
+                                                                <Storyboard>
+                                                                    <DoubleAnimation Duration="0" Storyboard.TargetName="ButtonLayoutGrid" Storyboard.TargetProperty="Opacity" To="0"/>
+                                                                </Storyboard>
+                                                            </VisualState>
+                                                        </VisualStateGroup>
+                                                    </VisualStateManager.VisualStateGroups>
+                                                    <TextBlock x:Name="GlyphElement" Opacity="0" AutomationProperties.AccessibilityView="Raw" FontStyle="Normal" FontFamily="{ThemeResource SymbolThemeFontFamily}" Foreground="#FF3600" FontSize="12" HorizontalAlignment="Center" Text="&#xE10A;" VerticalAlignment="Center"/>
+                                                </Grid>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                </Style>
+                            </Grid.Resources>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="CommonStates">
+                                    <VisualState x:Name="Normal"/>
+                                    <VisualState x:Name="Disabled">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="HeaderContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundDisabled}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="PointerOver">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundPointerOver}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="Focused">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="PlaceholderTextContentPresenter" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForegroundFocused}}"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="Background">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="BorderElement" Storyboard.TargetProperty="BorderBrush">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="Foreground">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="ContentElement" Storyboard.TargetProperty="RequestedTheme">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Light"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="ButtonStates">
+                                    <VisualState x:Name="ButtonVisible">
+                                        <Storyboard>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetName="DeleteButton" Storyboard.TargetProperty="Visibility">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <Visibility>Visible</Visibility>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ButtonCollapsed"/>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ContentPresenter x:Name="HeaderContentPresenter" ContentTemplate="{TemplateBinding HeaderTemplate}" Content="{TemplateBinding Header}" Grid.ColumnSpan="2" Grid.Column="0" FontWeight="Normal" Foreground="{ThemeResource TextControlHeaderForeground}" Margin="{ThemeResource TextBoxTopHeaderMargin}" Grid.Row="0" TextWrapping="Wrap" VerticalAlignment="Top" Visibility="Collapsed" x:DeferLoadStrategy="Lazy"/>
+                            <Border x:Name="BorderElement" Background="#FF3600" BorderThickness="{TemplateBinding BorderThickness}" BorderBrush="{TemplateBinding BorderBrush}" CornerRadius="1" Grid.ColumnSpan="2" Grid.Column="0" Control.IsTemplateFocusTarget="True" Height="3" Width="240" Grid.RowSpan="1" Margin="0,30,0,0" Grid.Row="1"/>
+                            <ScrollViewer x:Name="ContentElement" AutomationProperties.AccessibilityView="Raw" Grid.Column="0" HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" IsTabStop="False" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" ZoomMode="Disabled"/>
+                            <TextBlock x:Name="PlaceholderTextContentPresenter"  Grid.ColumnSpan="2" Grid.Column="0" Foreground="{Binding PlaceholderForeground, RelativeSource={RelativeSource Mode=TemplatedParent}, TargetNullValue={ThemeResource TextControlPlaceholderForeground}}" IsHitTestVisible="False" Margin="{TemplateBinding BorderThickness}" Padding="{TemplateBinding Padding}" Grid.Row="1" Text="{TemplateBinding PlaceholderText}" TextWrapping="{TemplateBinding TextWrapping}" TextAlignment="Center"/>
+                            <Button x:Name="DeleteButton" AutomationProperties.AccessibilityView="Raw" BorderThickness="{TemplateBinding BorderThickness}" Grid.Column="1" FontSize="{TemplateBinding FontSize}" IsTabStop="False" MinWidth="34" Margin="{ThemeResource HelperButtonThemePadding}" Grid.Row="1" Style="{StaticResource DeleteButtonStyle}" VerticalAlignment="Stretch" Visibility="Collapsed"/>
+                            <ContentPresenter x:Name="DescriptionPresenter" AutomationProperties.AccessibilityView="Raw" Content="{TemplateBinding Description}" Grid.ColumnSpan="2" Grid.Column="0" Foreground="{ThemeResource SystemControlDescriptionTextForegroundBrush}" Grid.Row="2" x:Load="False"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
         <Style x:Key="ButtonStyle2" TargetType="Button">
             <Setter Property="Background" Value="{ThemeResource ButtonBackground}"/>
             <Setter Property="Foreground" Value="{ThemeResource ButtonForeground}"/>
@@ -274,16 +440,16 @@
         </Style>
     </UserControl.Resources>
 
-    <Grid x:ConnectionId='26' x:Name="chaingrid">
+    <Grid x:ConnectionId='51' x:Name="chaingrid">
 
         <Grid.ColumnDefinitions>
-            <ColumnDefinition x:ConnectionId='27' Width="40*" x:Name="First" MinWidth="400"/>
+            <ColumnDefinition x:ConnectionId='52' Width="40*" x:Name="First" MinWidth="400"/>
             <ColumnDefinition Width="10*"/>
             <ColumnDefinition Width="40*"/>
             <ColumnDefinition Width="10*"/>
         </Grid.ColumnDefinitions>
 
-        <Image x:ConnectionId='28'  HorizontalAlignment="Left" 
+        <Image x:ConnectionId='53'  HorizontalAlignment="Left" 
                 VerticalAlignment="Top" 
                 Source="/Assets/Images/BoontaEveDaisyChain.png" 
                 x:Name="Ima"
@@ -319,12 +485,12 @@
                     FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"
                     TextWrapping="Wrap" 
                     VerticalAlignment="Top" 
-                    Height="85" 
-                    Width="300" 
+                    Height="50" 
+                    Width="370" 
                     FontSize="16" />
 
         <RelativePanel>
-            <ListView x:ConnectionId='33' Style="{StaticResource ListViewStyle1}" x:Name="ChainList" Background="Transparent" Padding="4" Margin="73,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"                                                Width="270" Height="auto" MaxHeight="320" >
+            <ListView x:ConnectionId='58' Style="{StaticResource ListViewStyle1}" x:Name="ChainList" Background="Transparent" Padding="4" Margin="73,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"                                                Width="270" Height="auto" MaxHeight="320" >
                 <ListView.Resources>
                     <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
                     <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
@@ -334,15 +500,16 @@
                 <ListView.ItemTemplate>
                     <DataTemplate                                  >
                         <Grid Width="236" Height="50" x:Name="ItemGrid">
-                            <StackPanel Orientation="Horizontal" Width="262">
+                            <StackPanel Orientation="Horizontal" Width="262" Margin="-11,0,0,0">
+                                <Border x:Name="selectedRect" Background="#FF3600" Width="6" Height="50" Margin="0,0,0,0" HorizontalAlignment="Left" Opacity="{Binding RectOpacity,Mode=TwoWay}"/>
                                 <Image Source="/Assets/Images/Chainnew.png" Width="25" Height="25" HorizontalAlignment="Left" Margin="6,0,0,0"/>
                                 <StackPanel Orientation="Vertical">
                                     <TextBlock x:Name="name" Text="{Binding Name}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="16" Foreground="White" Margin="10,10,0,0"/>
-                                    <TextBlock x:Name="conn" Text="{Binding Connection}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="12" Foreground="Gray" Margin="10,0,0,0"/>
+                                    <TextBlock x:Name="conn" Text="{Binding Connection,Mode=TwoWay}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="12" Foreground="{Binding Colour,Mode=TwoWay}" Margin="10,0,0,0"/>
                                 </StackPanel>
                             </StackPanel>
                                 
-                            <Button x:ConnectionId='37' x:Name="Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" VerticalAlignment="Center" HorizontalAlignment="Right" Height="30" Width="30" FontSize="12" FontWeight="Bold" Background="#00000000" Foreground="White"                      />
+                            <Button x:ConnectionId='62' x:Name="Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" VerticalAlignment="Center" HorizontalAlignment="Right" Height="30" Width="30" FontSize="12" FontWeight="Bold" Background="#00000000" Foreground="White"                      />
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -359,17 +526,17 @@
 
             <StackPanel Orientation="Horizontal" Background="#FF151515" Height="50" Width="262" RelativePanel.Below="ChainList" RelativePanel.AlignHorizontalCenterWith="ChainList" Margin="73,-2,0,0">
                 <TextBlock Text="New Chain" Foreground="#FF3600" VerticalAlignment="Center" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="55,0,0,0"/>
-                <Button x:ConnectionId='34' Style="{StaticResource ButtonStyle1}" FontWeight="Bold" x:Name="btn" Height="20" Width="20" FontFamily="Segoe MDL2 Assets"  Content="&#xE710;" Foreground="#FF3600" VerticalAlignment="Center" FontSize="11"                   Margin="98,0,0,0"/>
+                <Button x:ConnectionId='59' Style="{StaticResource ButtonStyle1}" FontWeight="Bold" x:Name="btn" Height="20" Width="20" FontFamily="Segoe MDL2 Assets"  Content="&#xE710;" Foreground="#FF3600" VerticalAlignment="Center" FontSize="11"                   Margin="98,0,0,0"/>
             </StackPanel>
         </RelativePanel>
 
-        <Popup x:ConnectionId='29' Grid.ColumnSpan="3" VerticalOffset="-150" HorizontalOffset="0" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="ChainCreatePopup">
+        <Popup x:ConnectionId='54' Grid.ColumnSpan="3" VerticalOffset="-150" HorizontalOffset="0" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="ChainCreatePopup">
             <Border Background="#FF252525" Width="300" Height="280">
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                     <TextBlock Text="CREATE NEW CHAIN" FontSize="24" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontWeight="Bold"/>
-                    <TextBox x:ConnectionId='30' x:Name="createText" Width="250" Margin="0,50,0,0" Background="Transparent" Foreground="#FF3600"/>
-                    <Button x:ConnectionId='31' Style="{StaticResource ButtonStyle3}" x:Name="chainAdd" Content="CREATE CHAIN"                        Margin="0,20,0,0" FontSize="16" Background="#FF3600" Foreground="Black"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
-                    <Button x:ConnectionId='32' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="CANCEL"                           Margin="0,10,0,0" FontSize="16" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    <TextBox x:ConnectionId='55' x:Name="createText" Style="{StaticResource TextBoxStyle1}" FontSize="16" Width="250" Margin="0,50,0,0" Background="Transparent" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="#FF3600" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <Button x:ConnectionId='56' Style="{StaticResource ButtonStyle3}" x:Name="chainAdd" Content="CREATE CHAIN"                        Margin="0,20,0,0" FontSize="16" Background="#FF3600" Foreground="Black"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    <Button x:ConnectionId='57' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="CANCEL"                           Margin="0,10,0,0" FontSize="16" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                 </StackPanel>
             </Border>
         </Popup>

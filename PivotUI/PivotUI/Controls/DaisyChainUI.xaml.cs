@@ -25,34 +25,34 @@ namespace PivotUI.Controls
     {
 
         ObservableCollection<ChainListItems> chainList = new ObservableCollection<ChainListItems> { };
+        
 
         public DaisyChainUI()
         {
             this.InitializeComponent();
             ChainList.ItemsSource = GetData();
-            ChainList.SelectedIndex = 0;
-            
+            ChainList.SelectedItem = chainList[0];
         }
 
         private ObservableCollection<ChainListItems> GetData()
         {
-            chainList.Add(new ChainListItems("Team Red","Connected"));
-            chainList.Add(new ChainListItems("Team Blue", "Not Connected"));
-            chainList.Add(new ChainListItems("Chain 3", "Locked"));
-            chainList.Add(new ChainListItems("Chain 4", "Blocked"));
+            chainList.Add(new ChainListItems("Team Red", "Connected", "#FF3600","1"));
+            chainList.Add(new ChainListItems("Team Blue", "Not Connected", "Gray","0"));
+            chainList.Add(new ChainListItems("Chain 3", "Locked", "Gray","0"));
+            chainList.Add(new ChainListItems("Chain 4", "Blocked", "Gray","0"));
 
 
             return chainList;
         }
 
         private void btn_Click(object sender, RoutedEventArgs e)
-        {           
+        {
             if (!ChainCreatePopup.IsOpen) { ChainCreatePopup.IsOpen = true; }
         }
 
         private void ClosePopupClicked(object sender, RoutedEventArgs e)
         {
-            
+
             // if the Popup is open, then close it 
             if (ChainCreatePopup.IsOpen) { ChainCreatePopup.IsOpen = false; }
         }
@@ -60,9 +60,12 @@ namespace PivotUI.Controls
 
         private void chainAdd_Click(object sender, RoutedEventArgs e)
         {
-            chainList.Insert(0,new ChainListItems(createText.Text,"Connected"));
-            
+            chainList.Insert(0, new ChainListItems(createText.Text, "Connected", "#FF3600","1"));
+
             ChainList.ItemsSource = chainList;
+
+            ChainList.SelectedItem = chainList[0];
+
             if (ChainCreatePopup.IsOpen) { ChainCreatePopup.IsOpen = false; }
         }
 
@@ -70,7 +73,7 @@ namespace PivotUI.Controls
         {
             var itemSelected = ((Windows.UI.Xaml.FrameworkElement)e.OriginalSource).DataContext;
 
-            if((itemSelected as ChainListItems).Name == "Team Red")
+            if ((itemSelected as ChainListItems).Name == "Team Red")
             {
                 this.Visibility = Visibility.Collapsed;
                 RelativePanel relativePanel = this.Parent as RelativePanel;
@@ -78,48 +81,87 @@ namespace PivotUI.Controls
                 teamRedUI.Visibility = Visibility.Visible;
             }
 
-            
+
         }
 
         private void ChainList_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+
             ListView ListView = (ListView)sender as ListView;
 
             foreach (var item in ListView.Items)
             {
                 var ListViewItem = (ListViewItem)ListView.ContainerFromItem(item) as ListViewItem;
-                var itemGrid = (Grid)ListViewItem.ContentTemplateRoot as Grid;
-                var status = itemGrid.FindName("conn") as TextBlock;
-                var name = itemGrid.FindName("name") as TextBlock;
 
                 var select = ChainList.SelectedItem;
 
+                
 
-                if (ListViewItem.IsSelected)
+                if (ListViewItem != null)
                 {
-                    if (status.Text != "Locked" && status.Text != "Blocked")
+                    var itemGrid = (Grid)ListViewItem.ContentTemplateRoot as Grid;
+                    var status = itemGrid.FindName("conn") as TextBlock;
+                    var name = itemGrid.FindName("name") as TextBlock;
+                    var selectedRect = itemGrid.FindName("selectedRect") as Border;
+
+                    if (ListViewItem.IsSelected)
                     {
-                        status.Text = "Connected";
-                        status.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 54, 0));
+                        if (status.Text != "Locked" && status.Text != "Blocked")
+                        {
+                            status.Text = "Connected";
+                            status.Foreground = new SolidColorBrush(Color.FromArgb(255, 255, 54, 0));
+                            selectedRect.Opacity = 1;
+                            (select as ChainListItems).Colour = "#FF3600";
+                            (select as ChainListItems).RectOpacity = "1";
+
+                        }
                     }
-                }
-                else if ((select as ChainListItems).Connection == "Locked" || (select as ChainListItems).Connection == "Blocked")
-                {
+                    else if ((select as ChainListItems).Connection == "Locked" || (select as ChainListItems).Connection == "Blocked")
+                    {
+                        
+                    }
+                    else
+                    {
+                        if (status.Text != "Locked" && status.Text != "Blocked")
+                        {
+                            status.Text = "Not Connected";
+                            status.Foreground = new SolidColorBrush(Colors.Gray);
+                            selectedRect.Opacity = 0;
+
+                            (item as ChainListItems).Colour = "Gray";
+                            (item as ChainListItems).RectOpacity = "0";
+                            
+
+                        }
+                    }
+
 
                 }
                 else
                 {
-                    if (status.Text != "Locked" && status.Text != "Blocked")
+                    if(item == select && (select as ChainListItems).Name!="Blocked" && (select as ChainListItems).Name != "Locked")
                     {
-                        status.Text = "Not Connected";
-                        status.Foreground = new SolidColorBrush(Colors.Gray);
+                        (select as ChainListItems).Connection = "Connected";
+                        (select as ChainListItems).Colour = "#FF3600";
+                        (select as ChainListItems).RectOpacity = "1";
+
+
+
                     }
+                    else if((item as ChainListItems).Connection != "Blocked" && (item as ChainListItems).Connection != "Locked")
+                    {
+                        (item as ChainListItems).Connection = "Not Connected";
+                        (item as ChainListItems).Colour = "Gray";
+                        (item as ChainListItems).RectOpacity = "0";
+
+                    }
+
+
+
                 }
-
-            
-        
-
             }
         }
+
     }
 }
+

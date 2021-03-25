@@ -641,7 +641,6 @@ C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\System.Xml.XmlDocument.dll
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\System.Xml.XmlSerializer.dll
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Microsoft.UI.Xaml.Markup.winmd
-C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\PivotUI.csprojAssemblyReference.cache
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\App.g.i.cs
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\App.g.cs
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Controls\DaisyChainUI.g.i.cs
@@ -768,3 +767,4 @@ C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\PivotUI.csprojAssemblyReference.cache
