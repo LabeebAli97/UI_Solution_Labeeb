@@ -693,3 +693,8 @@ C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\ob
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\CustomToggleSwitch.xbf
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\Controls\CustomToggleSwitch.g.i.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\Controls\CustomToggleSwitch.g.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\Controls\CustomToggleSwitch.xaml
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\obj\x86\Debug\Controls\CustomToggleSwitch.xbf

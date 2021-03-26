@@ -457,6 +457,9 @@
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\CustomToggleSwitch.xbf">
+      <PackagePath>Controls\CustomToggleSwitch.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
     </AppxPackagedFile>

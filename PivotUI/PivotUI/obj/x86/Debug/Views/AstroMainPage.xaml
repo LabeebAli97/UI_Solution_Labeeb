@@ -472,7 +472,7 @@
             <RowDefinition Height = "auto"/>
             <RowDefinition Height = "*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Astro-Pivot-UI" FontSize="30" Margin="10,0,0,0" Foreground="DarkGray"/>
+        <TextBlock Text="Astro-Pivot-UI" FontSize="30" Margin="10,0,0,0" Foreground="#FF5D5A59"/>
         <Pivot Style="{StaticResource PivotCustomStyle}" Grid.Row = "1"  >
             <PivotItem>
                 
