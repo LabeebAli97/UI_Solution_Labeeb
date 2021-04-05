@@ -487,6 +487,9 @@
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
       <PackagePath>Views\AstroMainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\LanguageSelectPage.xbf">
+      <PackagePath>Views\LanguageSelectPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

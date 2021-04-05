@@ -31,11 +31,13 @@ namespace PivotUI.Controls
         {
             this.InitializeComponent();
             RedList.ItemsSource = GetData();
-
+ 
             //flyoutList = TeamRedItems.FlyoutItems.FlyList();
             //this.DataContext = flyoutList;
 
         }
+
+        
 
         private ObservableCollection<TeamRedItems> GetData()
         {
@@ -43,7 +45,6 @@ namespace PivotUI.Controls
             redList.Add(new TeamRedItems("User 2", "Team Red"));
             redList.Add(new TeamRedItems("User 3", "Team Red"));
             redList.Add(new TeamRedItems("User 4", "Team Red"));
-
 
             return redList;
         }
@@ -524,5 +525,14 @@ namespace PivotUI.Controls
             flag = true;
         }
 
+        private void btnReturn_Click(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Collapsed;
+
+            RelativePanel relativePanel = this.Parent as RelativePanel;
+
+            DaisyChainUI daisyChainUI = relativePanel.FindName("Chain") as DaisyChainUI;
+            daisyChainUI.Visibility = Visibility.Visible;
+        }
     }
 }

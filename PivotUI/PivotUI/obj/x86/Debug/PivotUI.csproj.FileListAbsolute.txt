@@ -767,4 +767,9 @@ C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\ProjectArchitectures.txt
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885112160000000.json
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\LanguageSelectPage.xbf
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.g.i.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.g.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.xaml
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.xbf
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\PivotUI.csprojAssemblyReference.cache

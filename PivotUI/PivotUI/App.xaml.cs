@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using PivotUI.Views;
+using Windows.Globalization;
 
 namespace PivotUI
 {
@@ -67,7 +68,7 @@ namespace PivotUI
                     // When the navigation stack isn't restored navigate to the first page,
                     // configuring the new page by passing required information as a navigation
                     // parameter
-                    rootFrame.Navigate(typeof(AstroMainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(LanguageSelectPage), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();
@@ -93,6 +94,8 @@ namespace PivotUI
         /// <param name="e">Details about the suspend request.</param>
         private void OnSuspending(object sender, SuspendingEventArgs e)
         {
+            ApplicationLanguages.PrimaryLanguageOverride = "en-US";
+
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: Save application state and stop any background activity
             deferral.Complete();

@@ -374,6 +374,20 @@
                 Height="25" 
                 Width="70" />
 
+        <Button  x:Name="btnReturn" 
+                 x:Uid="btnReturn"
+                FontFamily="Segoe MDL2 Assets" 
+                Content="&#xE76B;"                
+                VerticalAlignment="Top"
+                 HorizontalAlignment="Left"
+                Margin="10,73,0,0"
+                Height="40" 
+                Width="40"                
+                FontSize="16" 
+                FontWeight="Bold" 
+                Background="Transparent"
+                Foreground="White" Click="btnReturn_Click" />
+        
         <TextBlock  Margin="80,72,0,0" 
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 

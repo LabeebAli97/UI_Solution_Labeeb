@@ -472,14 +472,13 @@
             <RowDefinition Height = "auto"/>
             <RowDefinition Height = "*"/>
         </Grid.RowDefinitions>
-        <TextBlock Text="Astro-Pivot-UI" FontSize="30" Margin="10,0,0,0" Foreground="#FF5D5A59"/>
-        <Pivot Style="{StaticResource PivotCustomStyle}" Grid.Row = "1"  >
+        <TextBlock x:Uid="HeadingText" Text="Welcome to Astro" FontSize="30" Margin="10,0,10,0" Foreground="#FF5D5A59" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FlowDirection="LeftToRight"/>
+        <Pivot x:Uid="Pivot" Style="{StaticResource PivotCustomStyle}" Grid.Row = "1" FlowDirection="LeftToRight"  >
             <PivotItem>
-                
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='78' Text="Modules" x:Name="Pivot_Modules" />
+                        <TextBlock x:ConnectionId='78' x:Uid="ModuleText" Text="Modules" x:Name="Pivot_Modules" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:ModuleUI/>
@@ -488,7 +487,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='77' Text="Video" x:Name="Pivot_Video" />
+                        <TextBlock x:ConnectionId='77' x:Uid="VideoText" Text="Video" x:Name="Pivot_Video" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:VideoUI/>
@@ -497,15 +496,16 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='76' Text="Equalizer" x:Name="Pivot_Equalizer" />
+                        <TextBlock x:ConnectionId='76' x:Uid="EqualizerText" Text="Equalizer" x:Name="Pivot_Equalizer" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
+               
             </PivotItem>
             <PivotItem >
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='75' Text="FlipView" x:Name="Pivot_Flip"/>
+                        <TextBlock x:ConnectionId='75' x:Uid="FlipViewText" Text="FlipView" x:Name="Pivot_Flip" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:FlipUI/>
@@ -514,7 +514,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
-                        <TextBlock x:ConnectionId='72' Text="Daisy Chain" x:Name="Pivot_Chain"/>
+                        <TextBlock x:ConnectionId='72' x:Uid="DaisyChainText" Text="Daisy Chain" x:Name="Pivot_Chain" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <RelativePanel>

@@ -374,6 +374,20 @@
                 Height="25" 
                 Width="70" />
 
+        <Button x:ConnectionId='35'  x:Name="btnReturn" 
+                 x:Uid="btnReturn"
+                FontFamily="Segoe MDL2 Assets" 
+                Content="&#xE76B;"                
+                VerticalAlignment="Top"
+                 HorizontalAlignment="Left"
+                Margin="10,73,0,0"
+                Height="40" 
+                Width="40"                
+                FontSize="16" 
+                FontWeight="Bold" 
+                Background="Transparent"
+                Foreground="White"                         />
+        
         <TextBlock  Margin="80,72,0,0" 
                     HorizontalAlignment="Left" 
                     TextWrapping="Wrap" 
@@ -396,14 +410,14 @@
                     Width="370" 
                     FontSize="16" />
 
-        <Button x:ConnectionId='35' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="LEAVE CHAIN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,180,0,0" FontSize="20" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="360" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"                     />
+        <Button x:ConnectionId='36' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="LEAVE CHAIN" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,180,0,0" FontSize="20" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="360" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"                     />
 
         <StackPanel Orientation="Horizontal" Margin="80,245,0,0" HorizontalAlignment="Left" VerticalAlignment="Top">
             <StackPanel Orientation="Vertical">
-                <TextBlock x:ConnectionId='46' x:Name="ChainSettings" Text="Chain Setting" FontSize="24" Foreground="White" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
-                <TextBlock x:ConnectionId='47' x:Name="SettingsText" Text="Adjust settings for the chain" FontSize="16" Foreground="Gray" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
+                <TextBlock x:ConnectionId='47' x:Name="ChainSettings" Text="Chain Setting" FontSize="24" Foreground="White" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
+                <TextBlock x:ConnectionId='48' x:Name="SettingsText" Text="Adjust settings for the chain" FontSize="16" Foreground="Gray" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"  />
             </StackPanel>
-            <Button x:ConnectionId='45'  x:Name="btSettings" 
+            <Button x:ConnectionId='46'  x:Name="btSettings" 
                 FontFamily="Segoe MDL2 Assets" 
                 Content="&#xE76C;"                
                 VerticalAlignment="Center"
@@ -415,7 +429,7 @@
                 Background="Transparent"
                 Foreground="White" />
         </StackPanel>
-        <ListView x:ConnectionId='36' Style="{StaticResource ListViewStyle1}" x:Name="RedList" Background="Transparent" Padding="4" Margin="73,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="270" Height="auto" MaxHeight="320"                                            >
+        <ListView x:ConnectionId='37' Style="{StaticResource ListViewStyle1}" x:Name="RedList" Background="Transparent" Padding="4" Margin="73,320,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="270" Height="auto" MaxHeight="320"                                            >
             <ListView.Resources>
                 <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
                 <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
@@ -432,7 +446,7 @@
                                 <TextBlock x:Name="UserStatus" Text="{Binding Status}" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" VerticalAlignment="Center"  HorizontalAlignment="Left" FontSize="12" Foreground="#FF3600" Margin="15,0,0,0"/>
                             </StackPanel>
                         </StackPanel>
-                        <Button x:ConnectionId='39' x:Name="FlyButton" Style="{StaticResource ButtonStyle4}" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="206,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Height="40" Width="40" FontSize="12" FontWeight="Bold" Background="Transparent" Foreground="White"                       >
+                        <Button x:ConnectionId='40' x:Name="FlyButton" Style="{StaticResource ButtonStyle4}" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Margin="206,0,0,0" VerticalAlignment="Center" HorizontalAlignment="Left" Height="40" Width="40" FontSize="12" FontWeight="Bold" Background="Transparent" Foreground="White"                       >
                             <!--<Button.Flyout>
                                 <Flyout Placement="Right">
                                     <Flyout.FlyoutPresenterStyle>
@@ -472,9 +486,9 @@
                                             
                                         </Style>
                                     </MenuFlyout.MenuFlyoutPresenterStyle>
-                                    <MenuFlyoutItem x:ConnectionId='40' x:Name="MuteStatus" Text="Mute User" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
-                                    <MenuFlyoutItem x:ConnectionId='41' x:Name="ChainStatus" Text="Block From Chain" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                          />
-                                    <MenuFlyoutItem x:ConnectionId='42' x:Name="HostStatus" Text="Make Host" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
+                                    <MenuFlyoutItem x:ConnectionId='41' x:Name="MuteStatus" Text="Mute User" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
+                                    <MenuFlyoutItem x:ConnectionId='42' x:Name="ChainStatus" Text="Block From Chain" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                          />
+                                    <MenuFlyoutItem x:ConnectionId='43' x:Name="HostStatus" Text="Make Host" Width="200" Height="48" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="White" FontSize="15"                         />
                                 </MenuFlyout>
                             </Button.Flyout>
                             
