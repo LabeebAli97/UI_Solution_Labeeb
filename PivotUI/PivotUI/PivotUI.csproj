@@ -125,6 +125,9 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\BlutoothUI.xaml.cs">
+      <DependentUpon>BlutoothUI.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\DaisyChainUI.xaml.cs">
       <DependentUpon>DaisyChainUI.xaml</DependentUpon>
     </Compile>
@@ -149,6 +152,7 @@
     <Compile Include="Controls\VideoUI.xaml.cs">
       <DependentUpon>VideoUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\BluetoothLEDeviceDisplay.cs" />
     <Compile Include="Model\ChainListItems.cs" />
     <Compile Include="Model\FlipItems.cs" />
     <Compile Include="Model\TeamRedItems.cs" />
@@ -196,6 +200,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Controls\BlutoothUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\DaisyChainUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

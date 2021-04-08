@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-04-01T09:31:46.354</Modified>
+      <Modified>2021-04-08T09:29:30.550</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\PivotUI.exe">
       <PackagePath>entrypoint\PivotUI.exe</PackagePath>
-      <Modified>2021-04-01T09:30:34.269</Modified>
+      <Modified>2021-04-08T09:29:25.452</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -606,51 +606,55 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\PivotUI.xr.xml">
       <PackagePath>PivotUI.xr.xml</PackagePath>
-      <Modified>2021-04-01T07:07:47.130</Modified>
+      <Modified>2021-04-08T05:01:37.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.303</Modified>
+      <Modified>2021-04-08T07:24:50.350</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\BlutoothUI.xbf">
+      <PackagePath>Controls\BlutoothUI.xbf</PackagePath>
+      <Modified>2021-04-08T07:24:50.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\DaisyChainUI.xbf">
       <PackagePath>Controls\DaisyChainUI.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.169</Modified>
+      <Modified>2021-04-08T07:24:50.183</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.304</Modified>
+      <Modified>2021-04-08T07:24:50.350</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\FlipUI.xbf">
       <PackagePath>Controls\FlipUI.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.202</Modified>
+      <Modified>2021-04-08T07:24:50.225</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-HeadsetMix.xbf">
       <PackagePath>Controls\Module-HeadsetMix.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.221</Modified>
+      <Modified>2021-04-08T07:24:50.248</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\Module-Text.xbf">
       <PackagePath>Controls\Module-Text.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.227</Modified>
+      <Modified>2021-04-08T07:24:50.254</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
       <PackagePath>Controls\ModuleUI.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.304</Modified>
+      <Modified>2021-04-08T07:24:50.352</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\TeamRedUI.xbf">
       <PackagePath>Controls\TeamRedUI.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.267</Modified>
+      <Modified>2021-04-08T07:24:50.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\VideoUI.xbf">
       <PackagePath>Controls\VideoUI.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.272</Modified>
+      <Modified>2021-04-08T07:24:50.310</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\AstroMainPage.xbf">
       <PackagePath>Views\AstroMainPage.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.302</Modified>
+      <Modified>2021-04-08T07:24:50.347</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Views\LanguageSelectPage.xbf">
       <PackagePath>Views\LanguageSelectPage.xbf</PackagePath>
-      <Modified>2021-04-01T09:31:45.305</Modified>
+      <Modified>2021-04-08T07:24:50.353</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -658,11 +662,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-04-01T09:31:45.983</Modified>
+      <Modified>2021-04-08T04:29:38.053</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Core\PivotUI.exe">
       <PackagePath>PivotUI.exe</PackagePath>
-      <Modified>2021-04-01T09:31:46.312</Modified>
+      <Modified>2021-04-08T09:29:30.478</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

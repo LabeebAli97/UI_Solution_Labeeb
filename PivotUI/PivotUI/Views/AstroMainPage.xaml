@@ -499,7 +499,7 @@
                         <TextBlock x:Uid="EqualizerText" Text="Equalizer" x:Name="Pivot_Equalizer" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
-               
+                <Controls:BlutoothUI/>
             </PivotItem>
             <PivotItem >
                 <PivotItem.Header>

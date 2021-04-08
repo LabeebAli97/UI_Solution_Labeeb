@@ -67,6 +67,8 @@ namespace PivotUI.Controls
             ChainList.SelectedItem = chainList[0];
 
             if (ChainCreatePopup.IsOpen) { ChainCreatePopup.IsOpen = false; }
+
+            
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)

@@ -1,0 +1,1 @@
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\BluetoothTask\BluetoothTask\BluetoothTask.csproj;x86

@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using PivotUI.Controls;
 
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=234238
@@ -27,9 +28,28 @@ namespace PivotUI.Views
         public AstroMainPage()
         {
             this.InitializeComponent();
-         
+
+            languageSetup();
+
         }
 
-        
+        private void languageSetup()
+        {
+            if (ApplicationLanguages.PrimaryLanguageOverride == "ar-SA")
+            {
+                var returnBtn = TeamRed.FindName("btnReturn") as Button;
+                returnBtn.Content = "\xE76C";
+
+
+                var listPanel = Chain.FindName("listPanel") as RelativePanel;
+                var list = listPanel.FindName("ChainList") as ListView;
+                var item = list.ItemTemplate;
+                
+                //var itemGrid = item.FindName("ItemGrid") as Grid;
+                //var btn = itemGrid.FindName("listBtn") as Button;
+                //btn.Content = "\xE76B";
+
+            }
+        }
     }
 }

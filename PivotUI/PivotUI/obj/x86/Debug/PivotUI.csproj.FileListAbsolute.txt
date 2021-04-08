@@ -773,3 +773,8 @@ C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.xaml
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Views\LanguageSelectPage.xbf
 C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\PivotUI.csprojAssemblyReference.cache
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\BlutoothUI.xbf
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Controls\BlutoothUI.g.i.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Controls\BlutoothUI.g.cs
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Controls\BlutoothUI.xaml
+C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\obj\x86\Debug\Controls\BlutoothUI.xbf

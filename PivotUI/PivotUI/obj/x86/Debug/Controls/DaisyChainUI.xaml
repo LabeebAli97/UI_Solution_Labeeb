@@ -9,6 +9,7 @@
     mc:Ignorable="d"
     d:DesignHeight="700"
     d:DesignWidth="1200">
+    
     <UserControl.Resources>
         
         <Style x:Key="TextBoxStyle1" TargetType="TextBox">
@@ -489,8 +490,8 @@
                     Width="370" 
                     FontSize="16" />
 
-        <RelativePanel>
-            <ListView x:ConnectionId='58' Style="{StaticResource ListViewStyle1}" x:Name="ChainList" Background="Transparent" Padding="4" Margin="73,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"                                                Width="270" Height="auto" MaxHeight="320" >
+        <RelativePanel x:ConnectionId='54' x:Name="listPanel">
+            <ListView x:ConnectionId='59' Style="{StaticResource ListViewStyle1}" x:Name="ChainList" Background="Transparent" Padding="4" Margin="73,230,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"                                                Width="270" Height="auto" MaxHeight="320" >
                 <ListView.Resources>
                     <SolidColorBrush x:Key="ListViewItemBackgroundSelected" Color="Transparent" />
                     <SolidColorBrush x:Key="ListViewItemBackgroundSelectedPointerOver" Color="Transparent" />
@@ -509,7 +510,7 @@
                                 </StackPanel>
                             </StackPanel>
                                 
-                            <Button x:ConnectionId='62' x:Name="Button" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" VerticalAlignment="Center" HorizontalAlignment="Right" Height="30" Width="30" FontSize="12" FontWeight="Bold" Background="#00000000" Foreground="White"                      />
+                            <Button x:ConnectionId='63' x:Name="listBtn" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" VerticalAlignment="Center" HorizontalAlignment="Right" Height="30" Width="30" FontSize="12" FontWeight="Bold" Background="#00000000" Foreground="White"                      />
                         </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
@@ -526,17 +527,17 @@
 
             <StackPanel Orientation="Horizontal" Background="#FF151515" Height="50" Width="262" RelativePanel.Below="ChainList" RelativePanel.AlignHorizontalCenterWith="ChainList" Margin="73,-2,0,0">
                 <TextBlock Text="New Chain" Foreground="#FF3600" VerticalAlignment="Center" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontWeight="Bold" FontSize="16" HorizontalAlignment="Center" Margin="55,0,0,0"/>
-                <Button x:ConnectionId='59' Style="{StaticResource ButtonStyle1}" FontWeight="Bold" x:Name="btn" Height="20" Width="20" FontFamily="Segoe MDL2 Assets"  Content="&#xE710;" Foreground="#FF3600" VerticalAlignment="Center" FontSize="11"                   Margin="98,0,0,0"/>
+                <Button x:ConnectionId='60' Style="{StaticResource ButtonStyle1}" FontWeight="Bold" x:Name="btn" Height="20" Width="20" FontFamily="Segoe MDL2 Assets"  Content="&#xE710;" Foreground="#FF3600" VerticalAlignment="Center" FontSize="11"                   Margin="98,0,0,0"/>
             </StackPanel>
         </RelativePanel>
 
-        <Popup x:ConnectionId='54' Grid.ColumnSpan="3" VerticalOffset="-150" HorizontalOffset="0" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="ChainCreatePopup">
+        <Popup x:ConnectionId='55' Grid.ColumnSpan="3" VerticalOffset="-150" HorizontalOffset="0" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="ChainCreatePopup">
             <Border Background="#FF252525" Width="300" Height="280">
                 <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top">
                     <TextBlock Text="CREATE NEW CHAIN" FontSize="24" HorizontalAlignment="Center" Margin="0,40,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontWeight="Bold"/>
-                    <TextBox x:ConnectionId='55' x:Name="createText" Style="{StaticResource TextBoxStyle1}" FontSize="16" Width="250" Margin="0,50,0,0" Background="Transparent" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="#FF3600" HorizontalAlignment="Center" TextAlignment="Center"/>
-                    <Button x:ConnectionId='56' Style="{StaticResource ButtonStyle3}" x:Name="chainAdd" Content="CREATE CHAIN"                        Margin="0,20,0,0" FontSize="16" Background="#FF3600" Foreground="Black"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
-                    <Button x:ConnectionId='57' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="CANCEL"                           Margin="0,10,0,0" FontSize="16" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    <TextBox x:ConnectionId='56' x:Name="createText" Style="{StaticResource TextBoxStyle1}" FontSize="16" Width="250" Margin="0,50,0,0" Background="Transparent" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Foreground="#FF3600" HorizontalAlignment="Center" TextAlignment="Center"/>
+                    <Button x:ConnectionId='57' Style="{StaticResource ButtonStyle3}" x:Name="chainAdd" Content="CREATE CHAIN"                        Margin="0,20,0,0" FontSize="16" Background="#FF3600" Foreground="Black"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    <Button x:ConnectionId='58' Style="{StaticResource ButtonStyle2}" x:Name="btnCancel" Content="CANCEL"                           Margin="0,10,0,0" FontSize="16" Background="Transparent" BorderBrush="Gray" Foreground="White"  Width="250" Height="40" FontWeight="SemiBold" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                 </StackPanel>
             </Border>
         </Popup>

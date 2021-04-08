@@ -1,0 +1,43 @@
+﻿<UserControl
+    x:Class="PivotUI.Controls.BlutoothUI"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:PivotUI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local1="using:PivotUI.Model"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid>
+        <RelativePanel Margin="100">
+            <Button x:Name="EnumerateBtn" Content="Search" RelativePanel.AlignHorizontalCenterWithPanel="True" Click="EnumerateBtn_Click" Background="White"/>
+            <ListView x:Name="ResultsListView"                     
+                      ItemsSource="{x:Bind KnownDevices, Mode=OneWay}"
+                      RelativePanel.Below="EnumerateBtn" Margin="0,100,0,0"
+                      RelativePanel.AlignHorizontalCenterWithPanel="True">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate x:DataType="local1:BluetoothLEDeviceDisplay">
+                        <Grid Margin="5">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*" MinWidth="100"/>
+                            </Grid.ColumnDefinitions>
+                            <Image Source="{x:Bind GlyphBitmapImage, Mode=OneWay}" Stretch="UniformToFill" Grid.Column="0" Height="40" Width="40" Margin="5" VerticalAlignment="Top"/>
+                            <StackPanel Grid.Column="1" Margin="5">
+                                <TextBlock  TextWrapping="WrapWholeWords">
+                        Name: <Run Text="{x:Bind Name, Mode=OneWay}" FontWeight="Bold"/>
+                                </TextBlock>
+                                <TextBlock>
+                        IsPaired: <Run Text="{x:Bind IsPaired, Mode=OneWay}"/>, IsConnected: <Run Text="{x:Bind IsConnected, Mode=OneWay}"/>, IsConnectable:<Run Text="{x:Bind IsConnectable, Mode=OneWay}"/>
+                                </TextBlock>
+                            </StackPanel>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </RelativePanel>
+    </Grid>
+</UserControl>
