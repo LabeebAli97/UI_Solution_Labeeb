@@ -30,7 +30,7 @@ namespace PivotUI.Views
 
         private void next_Click(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(AstroMainPage));
+            this.Frame.Navigate(typeof(IntroPage));
         }
 
         private void English_Checked(object sender, RoutedEventArgs e)

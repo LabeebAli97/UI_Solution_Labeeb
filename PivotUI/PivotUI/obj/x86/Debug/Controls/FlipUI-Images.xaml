@@ -9,51 +9,51 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid>
+    <Grid x:ConnectionId='2' x:Name="My">
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='2' x:Name="WindowStates">
-                <VisualState x:ConnectionId='3' x:Name="WideScreen">
+            <VisualStateGroup x:ConnectionId='3' x:Name="WindowStates">
+                <VisualState x:ConnectionId='4' x:Name="WideScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="700"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
-                        <Setter Target="Imag.Width" Value="450"/>
-                        <Setter Target="Imag.Height" Value="300"/>
+                        <Setter x:ConnectionId='7' x:Name="widths" Target="Imag.Width" Value="450"/>
 
                     </VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='4' x:Name="NarrowScreen">
+                <VisualState x:ConnectionId='5' x:Name="NarrowScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
-                        <Setter Target="Imag.Width" Value="300"/>
-                        <Setter Target="Imag.Height" Value="200"/>
+                        <Setter Target="Imag.Width"  Value="300"/>
 
                     </VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='5' x:Name="WidestScreen">
+                <VisualState x:ConnectionId='6' x:Name="WidestScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="1008"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
                         <Setter Target="Imag.Width" Value="700"/>
-                        <Setter Target="Imag.Height" Value="400"/>
 
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-
-        <Image x:ConnectionId='6' x:Name="Imag"
+        <!--<Button Width="700" Height="400" Click="Button_Click" HorizontalAlignment="Center">-->
+            <Image x:ConnectionId='8' x:Name="Imag"
                                 Stretch="Uniform"
                                 Source="{Binding Image}"                           
-                                Width="600"
-                                Height="400"/>
+                                Width="700"
+                                Height="400"
+               />
+
+        
     </Grid>
 </UserControl>
 

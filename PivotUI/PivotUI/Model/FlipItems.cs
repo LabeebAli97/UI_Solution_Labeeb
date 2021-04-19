@@ -12,5 +12,6 @@ namespace PivotUI.Model
     public class FlipItems
     {
         public string Image { get; set; }
+        public string Name { get; set; }
     }
 }

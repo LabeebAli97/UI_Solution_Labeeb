@@ -82,9 +82,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="Template" />
       <RootProperty Name="UseSystemFocusVisuals" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="Flyout" />
       <RootProperty Name="IsEnabled" />
-      <RootProperty Name="Opacity" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListView">
@@ -447,9 +447,9 @@
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Stretch" />
+      <RootProperty Name="Opacity" />
       <RootProperty Name="IsHitTestVisible" />
       <RootProperty Name="Margin" />
-      <RootProperty Name="Opacity" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.VirtualizingStackPanel">
       <RootProperty Name="AreScrollSnapPointsRegular" />
@@ -464,7 +464,10 @@
       <RootProperty Name="ItemContainerStyle" />
       <RootProperty Name="ItemsPanel" />
     </RootType>
-    <RootType FullName="PivotUI.Controls.FlipUI" />
+    <RootType FullName="PivotUI.Controls.FlipUI">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="Style" />
       <RootProperty Name="Margin" />
@@ -535,6 +538,7 @@
     <RootType FullName="PivotUI.Controls.TeamRedUI">
       <RootProperty Name="Visibility" />
     </RootType>
+    <RootType FullName="PivotUI.Controls.VideoPDF" />
     <RootType FullName="PivotUI.Controls.VideoUI" />
     <RootType FullName="Windows.UI.Xaml.Controls.Page">
       <RootProperty Name="Background" />
@@ -578,12 +582,14 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.ImageBrush">
       <RootProperty Name="ImageSource" />
+      <RootProperty Name="Stretch" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.PivotItem">
       <RootProperty Name="Header" />
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="PivotUI.Views.AstroMainPage" />
+    <RootType FullName="PivotUI.Views.IntroPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.RadioButton">
       <RootProperty Name="GroupName" />
       <RootProperty Name="Content" />

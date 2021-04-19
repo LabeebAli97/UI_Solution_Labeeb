@@ -30,11 +30,33 @@ namespace PivotUI.Controls
         {
             this.InitializeComponent();
             sampleList = new ObservableCollection<FlipItems>();
-            sampleList.Add(new FlipItems() { Image = "/Assets/Images/A50.png" });
-            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina 2.png" });
-            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Image.png" });
-            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina.png" });
+            sampleList.Add(new FlipItems() { Image = "/Assets/Images/A50.png", Name = "A50" });
+            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina 2.png", Name = "Carina2" });
+            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Image.png", Name = "Image" });
+            sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina.png", Name = "Carina" });
+           
+        }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var selectedItem = Gallery.SelectedItem;
+            Frame parentFrame = Window.Current.Content as Frame;
+
+            switch ((selectedItem as FlipItems).Name)
+            {
+                case "A50":
+                    parentFrame.Navigate(typeof(AstroMainPage));
+                    return;
+                case "Carina2":
+
+                    return;
+                case "Image":
+
+                    return;
+                case "Carina":
+
+                    return;
+            }
         }
     }
 }

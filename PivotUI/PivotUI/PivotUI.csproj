@@ -149,9 +149,13 @@
     <Compile Include="Controls\TeamRedUI.xaml.cs">
       <DependentUpon>TeamRedUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\VideoPDF.xaml.cs">
+      <DependentUpon>VideoPDF.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\VideoUI.xaml.cs">
       <DependentUpon>VideoUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converter\PdfToImage.cs" />
     <Compile Include="Model\BluetoothLEDeviceDisplay.cs" />
     <Compile Include="Model\ChainListItems.cs" />
     <Compile Include="Model\FlipItems.cs" />
@@ -159,6 +163,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\AstroMainPage.xaml.cs">
       <DependentUpon>AstroMainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\IntroPage.xaml.cs">
+      <DependentUpon>IntroPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\LanguageSelectPage.xaml.cs">
       <DependentUpon>LanguageSelectPage.xaml</DependentUpon>
@@ -172,6 +179,8 @@
   <ItemGroup>
     <Content Include="Assets\Images\4_Left.png" />
     <Content Include="Assets\Images\A50.png" />
+    <Content Include="Assets\Images\ArrowL.png" />
+    <Content Include="Assets\Images\ArrowR.png" />
     <Content Include="Assets\Images\Astro_Carina 2.png" />
     <Content Include="Assets\Images\Astro_Carina.png" />
     <Content Include="Assets\Images\Background.png" />
@@ -232,11 +241,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Controls\VideoPDF.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Controls\VideoUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\AstroMainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\IntroPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -261,6 +278,9 @@
   </ItemGroup>
   <ItemGroup>
     <PRIResource Include="Strings\ar-SA\Resources.resw" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\PDFImages\image 3.pdf" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

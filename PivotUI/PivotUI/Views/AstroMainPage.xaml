@@ -487,10 +487,20 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:Uid="VideoText" Text="Video" x:Name="Pivot_Video" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:Uid="VideoText" Text="Video-PNG" x:Name="Pivot_Video" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:VideoUI/>
+            </PivotItem>
+            
+            <PivotItem>
+                <PivotItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
+                        <TextBlock x:Uid="VideoText2" Text="Video-PDF" x:Name="Pivot_Video2" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <Controls:VideoPDF/>
             </PivotItem>
             <PivotItem>
                 <PivotItem.Header>

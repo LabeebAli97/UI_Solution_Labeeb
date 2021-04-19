@@ -9,7 +9,7 @@
     d:DesignHeight="300"
     d:DesignWidth="400">
 
-    <Grid>
+    <Grid x:Name="My">
 
         <VisualStateManager.VisualStateGroups>
             <VisualStateGroup x:Name="WindowStates">
@@ -19,8 +19,7 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
-                        <Setter Target="Imag.Width" Value="450"/>
-                        <Setter Target="Imag.Height" Value="300"/>
+                        <Setter x:Name="widths" Target="Imag.Width" Value="450"/>
 
                     </VisualState.Setters>
                 </VisualState>
@@ -30,8 +29,7 @@
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
 
-                        <Setter Target="Imag.Width" Value="300"/>
-                        <Setter Target="Imag.Height" Value="200"/>
+                        <Setter Target="Imag.Width"  Value="300"/>
 
                     </VisualState.Setters>
                 </VisualState>
@@ -42,17 +40,19 @@
                     <VisualState.Setters>
 
                         <Setter Target="Imag.Width" Value="700"/>
-                        <Setter Target="Imag.Height" Value="400"/>
 
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-
-        <Image x:Name="Imag"
+        <!--<Button Width="700" Height="400" Click="Button_Click" HorizontalAlignment="Center">-->
+            <Image x:Name="Imag"
                                 Stretch="Uniform"
                                 Source="{Binding Image}"                           
-                                Width="600"
-                                Height="400"/>
+                                Width="700"
+                                Height="400"
+               />
+
+        
     </Grid>
 </UserControl>

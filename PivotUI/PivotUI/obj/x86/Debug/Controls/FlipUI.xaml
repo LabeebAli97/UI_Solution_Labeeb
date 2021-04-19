@@ -11,6 +11,19 @@
     d:DesignWidth="600">
 
     <UserControl.Resources>
+
+        <Style x:Key="TransparentStyle" TargetType="Button">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="Transparent">
+                            <ContentPresenter>
+                            </ContentPresenter>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
         <!--Button Style for fliop View -->
         <Style x:Key="ButtonStyle1" TargetType="Button">
             <Setter Property="Background" Value="{ThemeResource ButtonBackground}" />
@@ -368,7 +381,7 @@
                                         Height="50"
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"                                                   
-                                        Stretch="UniformToFill" />
+                                        Stretch="UniformToFill" Opacity="0" />
 
                                         <ContentPresenter
                                         x:Name="ContentPresenter"
@@ -444,7 +457,7 @@
                                         Height="50"
                                         HorizontalAlignment="Stretch"
                                         VerticalAlignment="Stretch"                                                   
-                                        Stretch="UniformToFill" />
+                                        Stretch="UniformToFill" Opacity="0" />
 
                                         <ContentPresenter
                                         x:Name="ContentPresenter"
@@ -537,11 +550,19 @@
                             <ScrollViewer x:Name="ScrollingHost" AutomationProperties.AccessibilityView="Raw" BringIntoViewOnFocusChange="{TemplateBinding ScrollViewer.BringIntoViewOnFocusChange}" HorizontalScrollBarVisibility="{TemplateBinding ScrollViewer.HorizontalScrollBarVisibility}" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" HorizontalSnapPointsType="MandatorySingle" IsDeferredScrollingEnabled="{TemplateBinding ScrollViewer.IsDeferredScrollingEnabled}" IsVerticalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsVerticalScrollChainingEnabled}" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" IsTabStop="False" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" IsHorizontalScrollChainingEnabled="{TemplateBinding ScrollViewer.IsHorizontalScrollChainingEnabled}" Padding="{TemplateBinding Padding}" TabNavigation="{TemplateBinding TabNavigation}" VerticalSnapPointsType="MandatorySingle" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" VerticalScrollBarVisibility="{TemplateBinding ScrollViewer.VerticalScrollBarVisibility}" ZoomMode="Disabled">
                                 <ItemsPresenter/>
                             </ScrollViewer>
-                            <Button x:Name="PreviousButtonHorizontal" HorizontalAlignment="Left"  IsTabStop="False" Template="{StaticResource HorizontalPreviousTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Content="&#xE76B;" Foreground="White" />
-                            <Button x:Name="NextButtonHorizontal" HorizontalAlignment="Right"  IsTabStop="False" Template="{StaticResource HorizontalNextTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Foreground="White"/>
+                            <!--<Button x:Name="PreviousButtonHorizontal" HorizontalAlignment="Left"  IsTabStop="False" Template="{StaticResource HorizontalPreviousTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Content="&#xE76B;" Foreground="White" />
+                            <Button x:Name="NextButtonHorizontal" HorizontalAlignment="Right"  IsTabStop="False" Template="{StaticResource HorizontalNextTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Foreground="White"/>-->
 
-                            <Button x:Name="PreviousButtonVertical" HorizontalAlignment="Center" Height="20" IsTabStop="False" Template="{StaticResource VerticalPreviousTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Top" Width="36"/>
-                            <Button x:Name="NextButtonVertical" HorizontalAlignment="Center" Height="20" IsTabStop="False" Template="{StaticResource VerticalNextTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Bottom" Width="36"/>
+                            <Button x:Name="PreviousButtonHorizontal" Margin="30,0,0,0" HorizontalAlignment="Left"  IsTabStop="False" Template="{StaticResource HorizontalPreviousTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center"  Foreground="White" >
+                                <Image Source="/Assets/Images/ArrowL.png" Width="55.79px" Height="64.15px"/>
+                            </Button>
+                            <Button x:Name="NextButtonHorizontal" Margin="0,0,30,0" HorizontalAlignment="Right"  IsTabStop="False" Template="{StaticResource HorizontalNextTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Center" Foreground="White">
+                                <Image Source="/Assets/Images/ArrowR.png" Width="55.79px" Height="64.15px"/>
+                            </Button>
+
+
+                            <Button x:Name="PreviousButtonVertical" HorizontalAlignment="Center" Height="20" IsTabStop="False" Template="{StaticResource VerticalPreviousTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Top" Width="36" Opacity="0"/>
+                            <Button x:Name="NextButtonVertical" HorizontalAlignment="Center" Height="20" IsTabStop="False" Template="{StaticResource VerticalNextTemplate}" UseSystemFocusVisuals="False" VerticalAlignment="Bottom" Width="36" Opacity="0"/>
                         </Grid>
                     </ControlTemplate>
                 </Setter.Value>
@@ -553,42 +574,43 @@
     <Grid>
 
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:ConnectionId='60' x:Name="WindowStates">
-                <VisualState x:ConnectionId='61' x:Name="WideScreen">
+            <VisualStateGroup x:ConnectionId='62' x:Name="WindowStates">
+                <VisualState x:ConnectionId='63' x:Name="WideScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="700"/>
+                    </VisualState.StateTriggers>
+                    <VisualState.Setters>
+                        <Setter Target="Gallery.MaxHeight" Value="350"/>
+                    </VisualState.Setters>
+                </VisualState>
+                <VisualState x:ConnectionId='64' x:Name="NarrowScreen">
+                    <VisualState.StateTriggers>
+                        <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
                         <Setter Target="Gallery.MaxHeight" Value="300"/>
                     </VisualState.Setters>
                 </VisualState>
-                <VisualState x:ConnectionId='62' x:Name="NarrowScreen">
-                    <VisualState.StateTriggers>
-                        <AdaptiveTrigger MinWindowWidth="0"/>
-                    </VisualState.StateTriggers>
-                    <VisualState.Setters>
-                        <Setter Target="Gallery.MaxHeight" Value="200"/>
-                    </VisualState.Setters>
-                </VisualState>
-                <VisualState x:ConnectionId='63' x:Name="WidestScreen">
+                <VisualState x:ConnectionId='65' x:Name="WidestScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="1008"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="Gallery.MaxHeight" Value="500"/>
+                        <Setter Target="Gallery.MaxHeight" Value="400"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
 
         <RelativePanel>
-            <FlipView x:ConnectionId='64' Style="{StaticResource FlipViewCustomStyle}" Background="Transparent" 
+            <FlipView x:ConnectionId='66' Style="{StaticResource FlipViewCustomStyle}" Background="Transparent" 
                       x:Name="Gallery" 
                       Width="auto" 
                       MaxHeight="400" 
                       RelativePanel.AlignHorizontalCenterWithPanel="True" 
                       RelativePanel.AlignVerticalCenterWithPanel="True"                                         
                                                        
+                      
                       >
                 <FlipView.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -596,15 +618,16 @@
                     </ItemsPanelTemplate>
                 </FlipView.ItemsPanel>
 
-                <FlipView.ItemTemplate>
+                <FlipView.ItemTemplate >
                     <DataTemplate>
-                        
-                        <local:FlipUI_Images/>
+                        <Button x:ConnectionId='68' Style="{ThemeResource TransparentStyle}" HorizontalAlignment="Center" Width="600" Height="400"                     >
+                        <local:FlipUI_Images x:Name="FlipImg"/>
+                        </Button>
                     </DataTemplate>
                 </FlipView.ItemTemplate>
             </FlipView>
 
-            <ListBox x:ConnectionId='65' x:Name="GalleryIndicator" Width="auto"  RelativePanel.Below="Gallery" RelativePanel.AlignHorizontalCenterWith="Gallery" Margin="10" Background="Transparent"
+            <ListBox x:ConnectionId='67' x:Name="GalleryIndicator" Width="auto"  RelativePanel.Below="Gallery" RelativePanel.AlignHorizontalCenterWith="Gallery" Margin="10" Background="Transparent"
                      ItemsSource="{Binding ItemsSource, ElementName=Gallery}" 
                      SelectedItem="{Binding SelectedItem, ElementName=Gallery, Mode=TwoWay}"
                      ItemContainerStyle="{StaticResource ListBoxItemStyle-DotIndicator}">
