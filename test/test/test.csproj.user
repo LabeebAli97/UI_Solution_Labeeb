@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>C:\Users\Labeeb Ali\Downloads\Astro - Command Center - Design %286%29\Desktop\Astro_Carina 2.png</Source>
+    <SmallTileSource>C:\Users\Labeeb Ali\Downloads\Astro - Command Center - Design %286%29\Desktop\Astro_Carina 2.png</SmallTileSource>
+    <MediumTileSource>C:\Users\Labeeb Ali\Downloads\Astro - Command Center - Design %286%29\Desktop\Astro_Carina 2.png</MediumTileSource>
+    <WideTileSource>C:\Users\Labeeb Ali\Downloads\Astro - Command Center - Design %286%29\Desktop\Astro_Carina 2.png</WideTileSource>
+    <LargeTileSource>C:\Users\Labeeb Ali\Downloads\Astro - Command Center - Design %286%29\Desktop\Astro_Carina 2.png</LargeTileSource>
+  </PropertyGroup>
+</Project>

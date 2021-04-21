@@ -12,7 +12,7 @@
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.18362.0</TargetPlatformVersion>
-    <TargetPlatformMinVersion>10.0.15063.0</TargetPlatformMinVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -125,17 +125,29 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Controls\BlutoothUI.xaml.cs">
-      <DependentUpon>BlutoothUI.xaml</DependentUpon>
+    <Compile Include="Controls\ButtonStyle1.xaml.cs">
+      <DependentUpon>ButtonStyle1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ButtonStyles.xaml.cs">
+      <DependentUpon>ButtonStyles.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\DaisyChainUI.xaml.cs">
       <DependentUpon>DaisyChainUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\EqualizerUI.xaml.cs">
+      <DependentUpon>EqualizerUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\FlipUI-Images.xaml.cs">
       <DependentUpon>FlipUI-Images.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\FlipUI.xaml.cs">
       <DependentUpon>FlipUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\GlobeUI.xaml.cs">
+      <DependentUpon>GlobeUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ListDragAndDrop.xaml.cs">
+      <DependentUpon>ListDragAndDrop.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\Module-HeadsetMix.xaml.cs">
       <DependentUpon>Module-HeadsetMix.xaml</DependentUpon>
@@ -145,6 +157,12 @@
     </Compile>
     <Compile Include="Controls\ModuleUI.xaml.cs">
       <DependentUpon>ModuleUI.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TakeTheTourUI-Images.xaml.cs">
+      <DependentUpon>TakeTheTourUI-Images.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\TakeTheTourUI.xaml.cs">
+      <DependentUpon>TakeTheTourUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="Controls\TeamRedUI.xaml.cs">
       <DependentUpon>TeamRedUI.xaml</DependentUpon>
@@ -158,7 +176,9 @@
     <Compile Include="Converter\PdfToImage.cs" />
     <Compile Include="Model\BluetoothLEDeviceDisplay.cs" />
     <Compile Include="Model\ChainListItems.cs" />
+    <Compile Include="Model\DragDropList.cs" />
     <Compile Include="Model\FlipItems.cs" />
+    <Compile Include="Model\TakeTheTourItems.cs" />
     <Compile Include="Model\TeamRedItems.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\AstroMainPage.xaml.cs">
@@ -169,6 +189,9 @@
     </Compile>
     <Compile Include="Views\LanguageSelectPage.xaml.cs">
       <DependentUpon>LanguageSelectPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TourPage.xaml.cs">
+      <DependentUpon>TourPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -189,11 +212,19 @@
     <Content Include="Assets\Images\Capture1.PNG" />
     <Content Include="Assets\Images\Chainnew.png" />
     <Content Include="Assets\Images\Cross.JPG" />
+    <Content Include="Assets\Images\Ellipse.png" />
+    <Content Include="Assets\Images\Frame %281%29.png" />
+    <Content Include="Assets\Images\Frame %282%29.png" />
+    <Content Include="Assets\Images\Frame.png" />
+    <Content Include="Assets\Images\GlobeImage.png" />
     <Content Include="Assets\Images\image 3.png" />
     <Content Include="Assets\Images\Image.png" />
     <Content Include="Assets\Images\keypad.JPG" />
     <Content Include="Assets\Images\Profile.png" />
     <Content Include="Assets\Images\slowicon.png" />
+    <Content Include="Assets\Images\Square Grid %281%29.png" />
+    <Content Include="Assets\Images\Square Grid.png" />
+    <Content Include="Assets\Images\Keypad.png" />
     <Content Include="Assets\Images\Vector.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
@@ -209,11 +240,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Page Include="Controls\BlutoothUI.xaml">
+    <Page Include="Controls\ButtonStyle1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ButtonStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\DaisyChainUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\EqualizerUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -222,6 +261,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\FlipUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\GlobeUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\ListDragAndDrop.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -234,6 +281,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\ModuleUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TakeTheTourUI-Images.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\TakeTheTourUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -261,10 +316,17 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\TourPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Toolkit.Uwp.UI.Controls">
+      <Version>7.0.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>

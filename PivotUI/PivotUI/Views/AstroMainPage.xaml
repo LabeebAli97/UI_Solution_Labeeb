@@ -509,7 +509,10 @@
                         <TextBlock x:Uid="EqualizerText" Text="Equalizer" x:Name="Pivot_Equalizer" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
-                <Controls:BlutoothUI/>
+                <StackPanel Orientation="Horizontal">
+                <Controls:EqualizerUI />
+                <Controls:GlobeUI />
+                </StackPanel>
             </PivotItem>
             <PivotItem >
                 <PivotItem.Header>
@@ -532,7 +535,21 @@
                     <Controls:TeamRedUI x:Name="TeamRed" Visibility="Collapsed"/>
                 </RelativePanel>
             </PivotItem>
-
+            <PivotItem >
+                <PivotItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
+                        <TextBlock x:Uid="ButtonStyleText" Text="Button Styles" x:Name="Pivot_Button" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <Grid  Width="auto" Height="auto" >
+                    <Controls:ButtonStyles HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,0,0,0"/>
+                    <Button x:Name="tourBtn" Content="Take The Tour" Margin="500,150,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Click="tourBtn_Click" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Background="White" FontSize="20" />
+                    <Controls:ButtonStyle1 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,200,0,0"/>
+                    <Controls:ListDragAndDrop HorizontalAlignment="Left" VerticalAlignment="Center" Margin="200,0,0,0"/>
+                </Grid>
+            </PivotItem>
+            
         </Pivot>
     </Grid>
 </Page>

@@ -9,7 +9,7 @@
     d:DesignHeight="100"
     d:DesignWidth="300">
     <UserControl.Resources>
-        <Style x:Key="ToggleSwitchStyle1" TargetType="ToggleSwitch">
+        <Style x:Key="ToggleSwitchStyle2" TargetType="ToggleSwitch">
             <Setter Property="Foreground" Value="{ThemeResource ToggleSwitchContentForeground}"/>
             <Setter Property="HorizontalAlignment" Value="Left"/>
             <Setter Property="VerticalAlignment" Value="Center"/>
@@ -279,6 +279,6 @@
     </UserControl.Resources>
 
     <Grid>
-        <ToggleSwitch Style="{StaticResource ToggleSwitchStyle1}" x:Name="customToggle" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ToggleSwitch Style="{StaticResource ToggleSwitchStyle2}" x:Name="customToggle" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </UserControl>

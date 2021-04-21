@@ -47,8 +47,9 @@
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
         </Grid>
-        <my:FlipUI x:ConnectionId='4' x:Name="Flip" Grid.Row="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-
+        <RelativePanel x:ConnectionId='4' x:Name="s" Grid.Row="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center">
+        <my:FlipUI x:ConnectionId='5' x:Name="Flip" Grid.Row="1" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+        </RelativePanel>
     </Grid>
 </Page>
 

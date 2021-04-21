@@ -38,7 +38,8 @@ namespace PivotUI.Controls
 
             Size ScreenSize = this.GetScreenResolution();
             double ScreenHeight = this.GetScreenHeight(ScreenSize);
-            Load(ScreenHeight);           
+            Load(ScreenHeight);
+            
         }
 
 

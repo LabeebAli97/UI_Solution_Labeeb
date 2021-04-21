@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2021-03-26T12:03:47.117</Modified>
+      <Modified>2021-04-20T08:52:14.205</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\ButtonTask.exe">
       <PackagePath>entrypoint\ButtonTask.exe</PackagePath>
-      <Modified>2021-03-26T12:03:46.198</Modified>
+      <Modified>2021-04-20T08:52:08.458</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -606,27 +606,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:46.039</Modified>
+      <Modified>2021-04-20T08:52:08.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\CustomToggleSwitch.xbf">
       <PackagePath>Controls\CustomToggleSwitch.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:45.724</Modified>
+      <Modified>2021-04-20T08:52:08.050</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI-Images.xbf">
       <PackagePath>Controls\FlipUI-Images.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:46.039</Modified>
+      <Modified>2021-04-20T08:52:08.236</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Controls\FlipUI.xbf">
       <PackagePath>Controls\FlipUI.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:45.861</Modified>
+      <Modified>2021-04-20T08:52:08.124</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Flip.xbf">
       <PackagePath>Flip.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:46.040</Modified>
+      <Modified>2021-04-20T08:52:08.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2021-03-26T12:03:46.038</Modified>
+      <Modified>2021-04-20T08:52:08.235</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -634,11 +634,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2021-03-26T09:50:55.267</Modified>
+      <Modified>2021-04-20T08:52:13.139</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\ButtonTask\ButtonTask\bin\x86\Debug\Core\ButtonTask.exe">
       <PackagePath>ButtonTask.exe</PackagePath>
-      <Modified>2021-03-26T12:03:47.078</Modified>
+      <Modified>2021-04-20T08:52:14.199</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

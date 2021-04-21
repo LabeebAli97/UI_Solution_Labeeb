@@ -579,25 +579,25 @@
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="700"/>
                     </VisualState.StateTriggers>
-                    <VisualState.Setters>
+                    <!--<VisualState.Setters>
                         <Setter Target="Gallery.MaxHeight" Value="350"/>
-                    </VisualState.Setters>
+                    </VisualState.Setters>-->
                 </VisualState>
                 <VisualState x:ConnectionId='64' x:Name="NarrowScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="0"/>
                     </VisualState.StateTriggers>
-                    <VisualState.Setters>
+                    <!--<VisualState.Setters>
                         <Setter Target="Gallery.MaxHeight" Value="300"/>
-                    </VisualState.Setters>
+                    </VisualState.Setters>-->
                 </VisualState>
                 <VisualState x:ConnectionId='65' x:Name="WidestScreen">
                     <VisualState.StateTriggers>
                         <AdaptiveTrigger MinWindowWidth="1008"/>
                     </VisualState.StateTriggers>
-                    <VisualState.Setters>
+                    <!--<VisualState.Setters>
                         <Setter Target="Gallery.MaxHeight" Value="400"/>
-                    </VisualState.Setters>
+                    </VisualState.Setters>-->
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
@@ -606,7 +606,7 @@
             <FlipView x:ConnectionId='66' Style="{StaticResource FlipViewCustomStyle}" Background="Transparent" 
                       x:Name="Gallery" 
                       Width="auto" 
-                      MaxHeight="400" 
+                      MaxHeight="450" 
                       RelativePanel.AlignHorizontalCenterWithPanel="True" 
                       RelativePanel.AlignVerticalCenterWithPanel="True"                                         
                                                        
@@ -620,7 +620,7 @@
 
                 <FlipView.ItemTemplate >
                     <DataTemplate>
-                        <Button x:ConnectionId='68' Style="{ThemeResource TransparentStyle}" HorizontalAlignment="Center" Width="600" Height="400"                     >
+                        <Button x:ConnectionId='68' Style="{ThemeResource TransparentStyle}" HorizontalAlignment="Center" Width="auto" Height="auto"                     >
                         <local:FlipUI_Images x:Name="FlipImg"/>
                         </Button>
                     </DataTemplate>

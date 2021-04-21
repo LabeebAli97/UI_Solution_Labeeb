@@ -478,7 +478,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='79' x:Uid="ModuleText" Text="Modules" x:Name="Pivot_Modules" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='81' x:Uid="ModuleText" Text="Modules" x:Name="Pivot_Modules" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:ModuleUI/>
@@ -487,7 +487,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='78' x:Uid="VideoText" Text="Video-PNG" x:Name="Pivot_Video" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='80' x:Uid="VideoText" Text="Video-PNG" x:Name="Pivot_Video" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:VideoUI/>
@@ -497,7 +497,7 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='77' x:Uid="VideoText2" Text="Video-PDF" x:Name="Pivot_Video2" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='79' x:Uid="VideoText2" Text="Video-PDF" x:Name="Pivot_Video2" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:VideoPDF/>
@@ -506,16 +506,19 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Profile.png" Width="25" Height="25" />
-                        <TextBlock x:ConnectionId='76' x:Uid="EqualizerText" Text="Equalizer" x:Name="Pivot_Equalizer" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='78' x:Uid="EqualizerText" Text="Equalizer" x:Name="Pivot_Equalizer" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
-                <Controls:BlutoothUI/>
+                <StackPanel Orientation="Horizontal">
+                <Controls:EqualizerUI />
+                <Controls:GlobeUI />
+                </StackPanel>
             </PivotItem>
             <PivotItem >
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/slowicon.png" Width="20" Height="20" />
-                        <TextBlock x:ConnectionId='75' x:Uid="FlipViewText" Text="FlipView" x:Name="Pivot_Flip" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='77' x:Uid="FlipViewText" Text="FlipView" x:Name="Pivot_Flip" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <Controls:FlipUI/>
@@ -524,15 +527,29 @@
                 <PivotItem.Header>
                     <StackPanel Orientation="Horizontal">
                         <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
-                        <TextBlock x:ConnectionId='72' x:Uid="DaisyChainText" Text="Daisy Chain" x:Name="Pivot_Chain" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                        <TextBlock x:ConnectionId='74' x:Uid="DaisyChainText" Text="Daisy Chain" x:Name="Pivot_Chain" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
                     </StackPanel>
                 </PivotItem.Header>
                 <RelativePanel>
-                    <Controls:DaisyChainUI x:ConnectionId='73' x:Name="Chain" Visibility="Visible"/>
-                    <Controls:TeamRedUI x:ConnectionId='74' x:Name="TeamRed" Visibility="Collapsed"/>
+                    <Controls:DaisyChainUI x:ConnectionId='75' x:Name="Chain" Visibility="Visible"/>
+                    <Controls:TeamRedUI x:ConnectionId='76' x:Name="TeamRed" Visibility="Collapsed"/>
                 </RelativePanel>
             </PivotItem>
-
+            <PivotItem >
+                <PivotItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/Assets/Images/Chainnew.png" Width="20" Height="20"/>
+                        <TextBlock x:ConnectionId='72' x:Uid="ButtonStyleText" Text="Button Styles" x:Name="Pivot_Button" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque"/>
+                    </StackPanel>
+                </PivotItem.Header>
+                <Grid  Width="auto" Height="auto" >
+                    <Controls:ButtonStyles HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,0,0,0"/>
+                    <Button x:ConnectionId='73' x:Name="tourBtn" Content="Take The Tour" Margin="500,150,0,0" HorizontalAlignment="Center" VerticalAlignment="Top"                       FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" Background="White" FontSize="20" />
+                    <Controls:ButtonStyle1 HorizontalAlignment="Center" VerticalAlignment="Center" Margin="500,200,0,0"/>
+                    <Controls:ListDragAndDrop HorizontalAlignment="Left" VerticalAlignment="Center" Margin="200,0,0,0"/>
+                </Grid>
+            </PivotItem>
+            
         </Pivot>
     </Grid>
 </Page>

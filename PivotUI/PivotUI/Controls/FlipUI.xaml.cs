@@ -16,6 +16,8 @@ using Windows.UI.Xaml.Navigation;
 using PivotUI.Controls;
 using PivotUI.Views;
 using PivotUI.Model;
+using Windows.UI.ViewManagement;
+using Windows.Graphics.Display;
 
 // The User Control item template is documented at https://go.microsoft.com/fwlink/?LinkId=234236
 
@@ -34,7 +36,100 @@ namespace PivotUI.Controls
             sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina 2.png", Name = "Carina2" });
             sampleList.Add(new FlipItems() { Image = "/Assets/Images/Image.png", Name = "Image" });
             sampleList.Add(new FlipItems() { Image = "/Assets/Images/Astro_Carina.png", Name = "Carina" });
-           
+
+
+            Size ScreenSize = this.GetScreenResolution();
+            double ScreenHeight = this.GetScreenHeight(ScreenSize);
+            Load(ScreenHeight);
+
+        }
+
+        private void Load(double ScreenHeight)
+        {
+            if (ScreenHeight < 768)
+            {
+                Gallery.MaxHeight = ScreenHeight-250;
+                WideScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = ScreenHeight - 280
+                });
+
+                WidestScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = ScreenHeight - 250
+                });
+
+                NarrowScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = ScreenHeight - 350
+                });
+            }
+            else if (ScreenHeight > 768 && ScreenHeight < 1008)
+            {
+                Gallery.MaxHeight = 600;
+                WideScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = 600
+                });
+
+                WidestScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = 550
+                });
+
+                NarrowScreen.Setters.Add(new Setter
+                {
+                    Target = new TargetPropertyPath
+                    {
+                        Path = new PropertyPath("(FlipView.MaxHeight)"),
+                        Target = Gallery
+                    },
+                    Value = 500
+                });
+            }
+        }
+
+        private Size GetScreenResolution()
+        {
+            var bounds = ApplicationView.GetForCurrentView().VisibleBounds;
+            var scaleFactor = DisplayInformation.GetForCurrentView().RawPixelsPerViewPixel;
+            Size size = new Size(bounds.Width * scaleFactor, bounds.Height * scaleFactor);
+            return size;
+        }
+
+        private double GetScreenHeight(Size size)
+        {
+            return size.Height;
+        }
+
+        private double GetScreenWidth(Size size)
+        {
+            return size.Width;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
