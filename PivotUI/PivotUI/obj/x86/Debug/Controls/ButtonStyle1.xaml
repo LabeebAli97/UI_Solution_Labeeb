@@ -6,8 +6,8 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    d:DesignHeight="300"
-    d:DesignWidth="400">
+    d:DesignHeight="40"
+    d:DesignWidth="250">
 
     <UserControl.Resources>
         <Style x:Key="ToggleSwitchStyle2" TargetType="ToggleSwitch">
@@ -65,7 +65,7 @@
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="OuterBorder" Storyboard.TargetProperty="Fill">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Transparent"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="#FF3600"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchKnobBounds" Storyboard.TargetProperty="Fill">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource ToggleSwitchFillOnPressed}"/>
@@ -175,7 +175,7 @@
                                     <VisualState x:Name="Off"/>
                                     <VisualState x:Name="On">
                                         <Storyboard>
-                                            <DoubleAnimation Duration="0" Storyboard.TargetName="KnobTranslateTransform" Storyboard.TargetProperty="X" To="210"/>
+                                            <DoubleAnimation Duration="0" Storyboard.TargetName="KnobTranslateTransform" Storyboard.TargetProperty="X" To="206"/>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetName="SwitchKnobBounds" Storyboard.TargetProperty="Opacity">
                                                 <DiscreteObjectKeyFrame KeyTime="0" Value="1"/>
                                             </ObjectAnimationUsingKeyFrames>
@@ -250,16 +250,16 @@
                                     <RowDefinition Height="{ThemeResource ToggleSwitchPostContentMargin}"/>
                                 </Grid.RowDefinitions>
                                 <Grid x:Name="SwitchAreaGrid" Background="{ThemeResource ToggleSwitchContainerBackground}" Grid.ColumnSpan="3" Control.IsTemplateFocusTarget="True" Margin="0,5" Grid.RowSpan="3"/>
-                                <Rectangle x:Name="OuterBorder" Fill="Transparent" Height="40" RadiusX="20" RadiusY="20" Grid.Row="1" StrokeThickness="1.7" Stroke="#FF3600" Width="250" />
-                                <Rectangle x:Name="SwitchKnobBounds" Fill="#FF3600" Height="40" Opacity="0" RadiusX="20" RadiusY="20" Grid.Row="1" StrokeThickness="1.7" Stroke="#FF3600" Width="250"/>
-                                <Grid x:Name="SwitchKnob" HorizontalAlignment="Left" Height="40" Grid.Row="1" Width="40" >
+                                <Rectangle x:Name="OuterBorder" Fill="Transparent" Height="32px" RadiusX="15" RadiusY="15" Grid.Row="1" StrokeThickness="1.7" Stroke="#FF3600" Width="239px" />
+                                <Rectangle x:Name="SwitchKnobBounds" Fill="#FF3600" Height="32px" Opacity="0" RadiusX="15" RadiusY="15" Grid.Row="1" StrokeThickness="1.7" Stroke="#FF3600" Width="239px"/>
+                                <Grid x:Name="SwitchKnob" HorizontalAlignment="Left" Height="32px" Grid.Row="1" Width="32" >
                                     <Grid.RenderTransform>
                                         <TranslateTransform x:Name="KnobTranslateTransform"/>
                                     </Grid.RenderTransform>
-                                    <Ellipse x:Name="SwitchKnobOn" Fill="White" Height="28" Opacity="0" Width="28"/>
-                                    <Ellipse x:Name="SwitchKnobOff" Fill="White" Height="28" Width="28"/>
-                                    <ContentPresenter x:Name="SwitchKnobOnIconContentPreseneter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OffContentTemplate}" FontFamily="Segoe MDL2 Assets" Content="&#xE76B;" Grid.Column="0" Grid.ColumnSpan="3" Foreground="#FF3600" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="0,0,0,0"  FontSize="10" FontWeight="Bold"/>
-                                    <ContentPresenter x:Name="SwitchKnobOffIconContentPreseneter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OnContentTemplate}" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Grid.Column="0" Grid.ColumnSpan="3" Foreground="#FF3600" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="0,0,0,0"  FontSize="10" FontWeight="Bold"/>
+                                    <Ellipse x:Name="SwitchKnobOn" Fill="White" Height="24" Opacity="0" Width="24"/>
+                                    <Ellipse x:Name="SwitchKnobOff" Fill="White" Height="24" Width="24"/>
+                                    <ContentPresenter x:Name="SwitchKnobOnIconContentPreseneter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OffContentTemplate}" FontFamily="Segoe MDL2 Assets" Content="&#xE76B;" Grid.Column="0" Grid.ColumnSpan="3" Foreground="#FF3600" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="0,0,0,0"  FontSize="9" FontWeight="Bold"/>
+                                    <ContentPresenter x:Name="SwitchKnobOffIconContentPreseneter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OnContentTemplate}" FontFamily="Segoe MDL2 Assets" Content="&#xE76C;" Grid.Column="0" Grid.ColumnSpan="3" Foreground="#FF3600" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="0,0,0,0"  FontSize="9" FontWeight="Bold"/>
                                 </Grid>
                                 <ContentPresenter x:Name="OffContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OffContentTemplate}" Content="OFF" Grid.Column="0" Grid.ColumnSpan="3" Foreground="White" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="-8,0,0,0" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontSize="15" FontWeight="Bold"/>
                                 <ContentPresenter x:Name="OnContentPresenter" AutomationProperties.AccessibilityView="Raw" ContentTemplate="{TemplateBinding OnContentTemplate}" Content="ON" Grid.Column="0" Grid.ColumnSpan="3" Foreground="White" HorizontalAlignment="Center" IsHitTestVisible="False" Opacity="0" Grid.RowSpan="3" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" Margin="-8,0,0,0" FontFamily="/Assets/Fonts/Geo.otf#Geogrotesque" FontSize="15" FontWeight="Bold"/>
@@ -280,7 +280,7 @@
     </UserControl.Resources>
 
     <Grid>
-        <ToggleSwitch x:ConnectionId='35' Style="{StaticResource ToggleSwitchStyle2}" x:Name="customToggle" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ToggleSwitch x:ConnectionId='35' Style="{StaticResource ToggleSwitchStyle2}" x:Name="PhantomPowerSwitch" Width="240" HorizontalAlignment="Center" VerticalAlignment="Center"/>
     </Grid>
 </UserControl>
 

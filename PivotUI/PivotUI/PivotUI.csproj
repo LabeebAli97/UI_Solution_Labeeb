@@ -158,6 +158,9 @@
     <Compile Include="Controls\ModuleUI.xaml.cs">
       <DependentUpon>ModuleUI.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Controls\PhantomSlider.xaml.cs">
+      <DependentUpon>PhantomSlider.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Controls\TakeTheTourUI-Images.xaml.cs">
       <DependentUpon>TakeTheTourUI-Images.xaml</DependentUpon>
     </Compile>
@@ -281,6 +284,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Controls\ModuleUI.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Controls\PhantomSlider.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

@@ -259,6 +259,9 @@
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\ModuleUI.xbf">
       <PackagePath>Controls\ModuleUI.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\PhantomSlider.xbf">
+      <PackagePath>Controls\PhantomSlider.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Labeeb Ali\Documents\GitHub\UI_Solution_Labeeb\PivotUI\PivotUI\bin\x86\Debug\Controls\TakeTheTourUI-Images.xbf">
       <PackagePath>Controls\TakeTheTourUI-Images.xbf</PackagePath>
     </AppxPackagedFile>

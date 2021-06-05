@@ -32,6 +32,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ToggleSwitch">
       <RootProperty Name="Style" />
+      <RootProperty Name="Width" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="Margin" />
@@ -235,6 +236,7 @@
       <RootProperty Name="DataContext" />
       <RootProperty Name="FocusVisualMargin" />
       <RootProperty Name="Style" />
+      <RootProperty Name="Margin" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.TranslateTransform" />
     <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
@@ -736,6 +738,11 @@
       <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="PivotUI.Controls.ModuleUI" />
+    <RootType FullName="PivotUI.Controls.PhantomSlider">
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Margin" />
+    </RootType>
     <RootType FullName="PivotUI.Controls.TakeTheTourUI_Images" />
     <RootType FullName="PivotUI.Controls.TakeTheTourUI" />
     <RootType FullName="Windows.UI.Xaml.Controls.MenuFlyout">
